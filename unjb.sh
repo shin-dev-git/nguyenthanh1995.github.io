@@ -77,6 +77,9 @@ rm -rf /private/etc/pam.d/sudo
 rm -rf /private/etc/profile.d/terminal.sh
 rm -rf /ect/rc.d/substrate
 rm -rf /var/mobile/Documents/Flex
+rm -rf /var/cache/apt
+rm -rf /var/lib/apt
+rm -rf /var/log/apt
 # Xóa Tweak thừa?
 echo "Đang xóa Core Utilities..."
 rm -rf /usr/bin/[
@@ -285,6 +288,7 @@ rm -rf /Library/LaunchDaemons/com.tigisoftware.filza.helper.plist
 rm -rf /usr/lib/FilzaPass.dylib
 rm -rf /usr/bin/unrar
 rm -rf /usr/lib/p7zip
+rm -rf /var/mobile/Library/Filza
 /usr/bin/uicache
 # Xoá iCleaner Pro?
 echo "Đang xoá iCleaner Pro...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
@@ -319,7 +323,7 @@ rm -rf /.cydia_no_stash
 rm -rf /private/etc/apt/
 rm -rf /var/mobile/Library/Caches/com.saurik.Cydia
 rm -rf /Library/Frameworks/CydiaSubstrate.framework
-rm -rf /usr.dpkg
+rm -rf /usr/include/dpkg
 rm -rf /bin/bash
 rm -rf /bin/bunzip2
 rm -rf /bin/bzcat
