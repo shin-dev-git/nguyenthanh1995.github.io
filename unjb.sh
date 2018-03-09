@@ -1,15 +1,12 @@
 # Chào mừng
-echo "Chào mừng tới với Semi-Restore của DevNTNghia!"
+echo "Chào mừng tới với Semi-Restore cho iOS 10.3.x của DevNTNghia!"
+echo "--------------------"
 # Chuẩn bị
 echo "XÓA JAILBREAK CHO iOS 10.3.x DÙNG G0BLIN!"
-echo "Bạn vui lòng hãy xóa những Tweaks có trên màn hình"
-echo "trước khi chạy file này. Vì file này chỉ hỗ trợ 1"
-echo "số tweak nổi bật: Filza, Ext3nder, AFC2, Cydown."
-echo "Lúc xóa Filza, Ext3nder, CyDown sẽ bị đứng hình 1 lúc"
-echo "bởi vì phải dùng uicache nên bạn hãy chờ, đừng làm gì cả."
-echo "Sẽ có lúc ghi: No file or directories found. Bạn không cần"
-echo "tâm vì nó bị trùng lệnh hoặc là máy bạn không có file đó."
+echo "Bạn vui lòng hãy xóa những Tweaks có trên màn hình trước khi chạy file này. Vì file này chỉ hỗ trợ 1 số tweak nổi bật: Filza, Ext3nder, AFC2, Cydown, iCleaner, Eraser, Activator, netKillUI, Anemone, CrashReporter."
+echo "Lúc xóa Filza, Ext3nder, CyDown, iCleaner, Eraser, Activator, netKillUI, Anemone, CrashReporter sẽ bị đứng hình 1 lúc bởi vì phải dùng uicache nên bạn hãy chờ và đừng làm gì cả."
 read -p "Nhấn Enter để chạy lệnh. Nhấn Ctrl + C để thoát."
+echo "--------------------"
 # Xóa file tạo từ g0blin
 echo "Đang xóa file tạo bởi g0blin..."
 rm -rf /.installed_g0blin_rc1
@@ -69,7 +66,6 @@ rm -rf /Library/LaunchDaemons/0.reload.plist
 rm -rf /Library/LaunchDaemons/com.openssh.sshd.plist
 rm -rf /Library/LaunchDaemons/com.rpetrich.rocketbootstrapd.plist
 rm -rf /Library/LaunchDaemons/com.saurik.Cydia.Startup.plist
-rm -rf /Applications/Eraser.app
 # rm -rf /Applications/MTerminal.app
 rm -rf /private/etc/pam.d/chkpasswd
 rm -rf /private/etc/pam.d/login
@@ -82,6 +78,79 @@ rm -rf /private/etc/pam.d/sudo
 rm -rf /private/etc/profile.d/terminal.sh
 rm -rf /ect/rc.d/substrate
 rm -rf /var/mobile/Documents/Flex
+# Xoá netKillUI?
+echo "Đang xoá netKillUI..."
+rm -rf /usr/bin/awk
+rm -rf /usr/bin/gawk
+rm -rf /usr/bin/igawk
+rm -rf /usr/libexec/awk
+rm -rf /usr/share/awk
+rm -rf /bin/ping6
+rm -rf /sbin/ifconfig
+rm -rf /sbin/ip6fw
+rm -rf /sbin/ipfw
+rm -rf /sbin/netstat
+rm -rf /sbin/ping6
+rm -rf /sbin/route
+rm -rf /sbin/routed
+rm -rf /sbin/rtsol
+rm -rf /sbin/slattach
+rm -rf /usr/bin/ip6conf
+rm -rf /usr/libexec/kdumpd
+rm -rf /usr/sbin/arp
+rm -rf /usr/sbin/natd
+rm -rf /usr/sbin/ndp
+rm -rf /usr/sbin/traceroute
+rm -rf /usr/sbin/traceroute6
+rm -rf /usr/sbin/trpt
+rm -rf /usr/bin/pcap-config
+rm -rf /usr/include/pcap
+rm -rf /usr/include/pcap-bpf.h
+rm -rf /usr/include/pcap-namedb.h
+rm -rf /usr/include/pcap.h
+rm -rf /usr/lib/libpcap.0.dylib
+rm -rf /usr/lib/libpcap.1.0.0.dylib
+rm -rf /usr/lib/libpcap.A.dylib
+rm -rf /usr/lib/libpcap.dylib
+rm -rf /usr/local/lib/dsniff.services
+rm -rf /usr/sbin/arpspoof
+rm -rf /usr/sbin/dnsspoof
+rm -rf /usr/sbin/dsniff
+rm -rf /usr/sbin/filesnarf
+rm -rf /usr/sbin/macof
+rm -rf /usr/sbin/mailsnarf
+rm -rf /usr/sbin/msgsnarf
+rm -rf /usr/sbin/tcpnice
+rm -rf /usr/sbin/tpckill
+rm -rf /usr/sbin/urlsnarf
+rm -rf /usr/sbin/webmitm
+rm -rf /usr/local/bin/arp-fingerprint
+rm -rf /usr/local/bin/arp-scan
+rm -rf /usr/local/bin/get-iab
+rm -rf /usr/local/bin/get-oui
+rm -rf /usr/local/share/arp-scan
+rm -rf /usr/local/share/man
+rm -rf /Applications/netKillUI.app
+/usr/bin/uicache
+# Xoá Eraser Cho 10.3.x?
+echo "Đang xoá Eraser Cho 10.3.x..."
+rm -rf /Applications/Eraser.app
+/usr/bin/uicache
+# Xoá Anemone?
+rm -rf /Applications/Anemone.app
+rm -rf /Library/Themes
+rm -rf /usr/bin/AnemoneOptimizer
+rm -rf /usr/bin/cardump
+rm -rf /usr/bin/recache
+/usr/bin/uicache
+# Xoá Activator?
+echo "Đang xoá Activator..."
+rm -rf /Applications/Activator.app
+rm -rf /Library/Activator
+rm -rf /usr/bin/activator
+rm -rf /usr/lib/libactivator.dylib
+rm -rf /usr/include/libactivator
+/usr/bin/uicache
 # Xóa AFC2?
 echo "Đang xóa AFC2..."
 rm -rf /Library/LaunchDaemons/afc2d.plist
@@ -95,11 +164,18 @@ rm -rf /usr/libexec/filza
 rm -rf /Library/LaunchDaemons/com.tigisoftware.filza.helper.plist
 rm -rf /usr/lib/FilzaPass.dylib
 /usr/bin/uicache
+# Xoá iCleaner Pro?
+echo "Đang xoá iCleaner Pro..."
+rm -rf /Applications/iCleaner.app
+rm -rf /Library/Switches/ICClean.bundle
+rm -rf /Library/Switches/ICCleanNP.bundle
+rm -rf /usr/bin/icleaner
+/usr/bin/uicache
 # Xóa Ext3nder?
 echo "Đang xóa Ext3nder..."
 rm -rf /var/Ext3nder-Installer
 rm -rf /Applications/Ext3nder.app
-rm -rf /Library/Switcher/Ext3nderSwitch.bundle
+rm -rf /Library/Switches/Ext3nderSwitch.bundle
 rm -rf /var/mobile/Documents/Ext3nder
 /usr/bin/uicache
 # Xóa CyDown?
