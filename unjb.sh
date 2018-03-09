@@ -64,7 +64,6 @@ rm -rf /Library/Cylinder
 rm -rf /Library/Barrel
 rm -rf /Library/LaunchDaemons/0.reload.plist
 rm -rf /Library/LaunchDaemons/com.openssh.sshd.plist
-rm -rf /Library/LaunchDaemons/com.rpetrich.rocketbootstrapd.plist
 rm -rf /Library/LaunchDaemons/com.saurik.Cydia.Startup.plist
 # rm -rf /Applications/MTerminal.app
 rm -rf /private/etc/pam.d/chkpasswd
@@ -78,8 +77,127 @@ rm -rf /private/etc/pam.d/sudo
 rm -rf /private/etc/profile.d/terminal.sh
 rm -rf /ect/rc.d/substrate
 rm -rf /var/mobile/Documents/Flex
+# Xóa Tweak thừa?
+echo "Đang xóa Core Utilities..."
+rm -rf /usr/bin/[
+rm -rf /usr/bin/base64
+rm -rf /usr/bin/basename
+rm -rf /usr/bin/cksum
+rm -rf /usr/bin/comm
+rm -rf /usr/bin/csplit
+rm -rf /usr/bin/cut
+rm -rf /usr/bin/chcon
+rm -rf /usr/bin/dircolor
+rm -rf /usr/bin/du
+rm -rf /usr/bin/env
+rm -rf /usr/bin/expand
+rm -rf /usr/bin/expr
+rm -rf /usr/bin/factor
+rm -rf /usr/bin/fmt
+rm -rf /usr/bin/fold
+rm -rf /usr/bin/groups
+rm -rf /usr/bin/head
+rm -rf /usr/bin/hostid
+rm -rf /usr/bin/id
+rm -rf /usr/bin/install
+rm -rf /usr/bin/join
+rm -rf /usr/bin/link
+rm -rf /usr/bin/logname
+rm -rf /usr/bin/md5sum
+rm -rf /usr/bin/mkfifo
+rm -rf /usr/bin/nice
+rm -rf /usr/bin/nl
+rm -rf /usr/bin/nohup
+rm -rf /usr/bin/nproc
+rm -rf /usr/bin/od
+rm -rf /usr/bin/paste
+rm -rf /usr/bin/pathchk
+rm -rf /usr/bin/pinky
+rm -rf /usr/bin/pr
+rm -rf /usr/bin/printenv
+rm -rf /usr/bin/printf
+rm -rf /usr/bin/ptx
+rm -rf /usr/bin/runcon
+rm -rf /usr/bin/seq
+rm -rf /usr/bin/sha1sum
+rm -rf /usr/bin/sha224su
+rm -rf /usr/bin/sha256sum
+rm -rf /usr/bin/sha384sum
+rm -rf /usr/bin/sha512sum
+rm -rf /usr/bin/shred
+rm -rf /usr/bin/shuf
+rm -rf /usr/bin/sort
+rm -rf /usr/bin/split
+rm -rf /usr/bin/stat
+rm -rf /usr/bin/sum
+rm -rf /usr/bin/tac
+rm -rf /usr/bin/tail
+rm -rf /usr/bin/tee
+rm -rf /usr/bin/test
+rm -rf /usr/bin/timeout
+rm -rf /usr/bin/tsort
+rm -rf /usr/bin/tty
+rm -rf /usr/bin/tr
+rm -rf /usr/bin/truncate
+rm -rf /usr/bin/unexpand
+rm -rf /usr/bin/uniq
+rm -rf /usr/bin/unlink
+rm -rf /usr/bin/uptime
+rm -rf /usr/bin/users
+rm -rf /usr/bin/wc
+rm -rf /usr/bin/who
+rm -rf /usr/bin/whoami
+rm -rf /usr/bin/yes
+rm -rf /usr/lib/coreutils
+rm -rf /usr/sbin/chroot
+rm -rf /etc/profile.d/coreutils.sh
+echo "Đang xóa Cydia Substrate..."
+rm -rf /Library/MobileSubstrate/DynamicLibraries/MobileSafey.dylib
+rm -rf /Library/MobileSubstrate/DynamicLibraries/MobileSafey/plist
+echo "Đang xóa BerkeleyDB..."
+rm -rf /usr/bin/db_archive
+rm -rf /usr/bin/db_codegen
+rm -rf /usr/bin/db_checkpoint
+rm -rf /usr/bin/db_deadlock
+rm -rf /usr/bin/db_dump
+rm -rf /usr/bin/db_hotbackup
+rm -rf /usr/bin/db_load
+rm -rf /usr/bin/db_printlog
+rm -rf /usr/bin/db_recover
+rm -rf /usr/bin/db_stat
+rm -rf /usr/bin/db_upgrade
+rm -rf /usr/bin/db_verify
+rm -rf /usr/include/db_cxx.h
+rm -rf /usr/include/db.h
+rm -rf /usr/lib/libdb-4.6.dylib
+rm -rf /usr/lib/libdb-4.6.la
+echo "Đang xóa unzip..."
+rm -rf /usr/bin/funzip
+rm -rf /usr/bin/unzip
+rm -rf /usr/bin/unzipsfx
+echo "Đang xóa zip..."
+rm -rf /usr/bin/zip
+rm -rf /usr/bin/zipcloak
+rm -rf /usr/bin/zipnote
+rm -rf /usr/bin/zipsplit
+echo "Đang xóa FlipSwitch..."
+rm -rf /Library/Flipswitch
+rm -rf /Library/MobileSubstrate/DynamicLibraries/Flipswitch.plist
+rm -rf /Library/PreferenceBundles/FlipswitchSettings.bundle
+rm -rf /Library/Switches
+rm -rf /usr/include/llipswitch
+rm -rf /usr/lib/libflipswitch.dylib
+echo "Đang xóa RocketBootstrap..."
+rm -rf /Library/LaunchDaemons/com.rpetrich.rocketbootstrapd.plist
+rm -rf /Library/MobileSubstrate/DynamicLibraries/RocketBootstrap.plist
+rm -rf /usr/include/rocketbootstrap.h
+rm -rf /usr/include/rocketbootstrap_dynamic.h
+rm -rf /usr/lib/librocketbootstrap.dylib
+rm -rf /usr/libexec/_rocketd_reenable
+rm -rf /usr/libexec/rocketd
+/usr/bin/uicache
 # Xoá netKillUI?
-echo "Đang xoá netKillUI..."
+echo "Đang xoá netKillUI...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
 rm -rf /usr/bin/awk
 rm -rf /usr/bin/gawk
 rm -rf /usr/bin/igawk
@@ -133,18 +251,20 @@ rm -rf /usr/local/share/man
 rm -rf /Applications/netKillUI.app
 /usr/bin/uicache
 # Xoá Eraser Cho 10.3.x?
-echo "Đang xoá Eraser Cho 10.3.x..."
+echo "Đang xoá Eraser Cho 10.3.x...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
 rm -rf /Applications/Eraser.app
 /usr/bin/uicache
 # Xoá Anemone?
+echo "Đang xóa Anemone...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
 rm -rf /Applications/Anemone.app
 rm -rf /Library/Themes
 rm -rf /usr/bin/AnemoneOptimizer
 rm -rf /usr/bin/cardump
 rm -rf /usr/bin/recache
+rm -rf /usr/bin/pincrush
 /usr/bin/uicache
 # Xoá Activator?
-echo "Đang xoá Activator..."
+echo "Đang xoá Activator...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
 rm -rf /Applications/Activator.app
 rm -rf /Library/Activator
 rm -rf /usr/bin/activator
@@ -152,7 +272,7 @@ rm -rf /usr/lib/libactivator.dylib
 rm -rf /usr/include/libactivator
 /usr/bin/uicache
 # Xóa AFC2?
-echo "Đang xóa AFC2..."
+echo "Đang xóa AFC2...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
 rm -rf /Library/LaunchDaemons/afc2d.plist
 rm -rf /Library/MobileSubstrate/DynamicLibraries/afc2dService.dylib
 rm -rf /Library/MobileSubstrate/DynamicLibraries/afc2dService.plist
@@ -163,23 +283,25 @@ rm -rf /Applications/Filza.app
 rm -rf /usr/libexec/filza
 rm -rf /Library/LaunchDaemons/com.tigisoftware.filza.helper.plist
 rm -rf /usr/lib/FilzaPass.dylib
+rm -rf /usr/bin/unrar
+rm -rf /usr/lib/p7zip
 /usr/bin/uicache
 # Xoá iCleaner Pro?
-echo "Đang xoá iCleaner Pro..."
+echo "Đang xoá iCleaner Pro...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
 rm -rf /Applications/iCleaner.app
 rm -rf /Library/Switches/ICClean.bundle
 rm -rf /Library/Switches/ICCleanNP.bundle
 rm -rf /usr/bin/icleaner
 /usr/bin/uicache
 # Xóa Ext3nder?
-echo "Đang xóa Ext3nder..."
+echo "Đang xóa Ext3nder...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
 rm -rf /var/Ext3nder-Installer
 rm -rf /Applications/Ext3nder.app
 rm -rf /Library/Switches/Ext3nderSwitch.bundle
 rm -rf /var/mobile/Documents/Ext3nder
 /usr/bin/uicache
 # Xóa CyDown?
-echo "Đang xóa CyDown..."
+echo "Đang xóa CyDown...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
 rm -rf /Applications/cydown.app
 rm -rf /Library/Switcher/CyDownSwitch.bundle
 rm -rf /etc/symlibs.dylib
@@ -196,6 +318,7 @@ rm -rf /Applications/Cydia.app/
 rm -rf /.cydia_no_stash
 rm -rf /private/etc/apt/
 rm -rf /var/mobile/Library/Caches/com.saurik.Cydia
+rm -rf /Library/Frameworks/CydiaSubstrate.framework
 rm -rf /usr.dpkg
 rm -rf /bin/bash
 rm -rf /bin/bunzip2
