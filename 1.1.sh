@@ -1,24 +1,47 @@
 # Chào mừng
-echo "Chào mừng tới với Semi-Restore cho iOS 10.3.x của DevNTNghia!"
+clear
+echo "Chào mừng đến với Semi-Restore cho iOS 10.3.x của DevNTNghia!"
+echo "Cảm ơn bạn đã tin tưởng dùng sản phẩm của mình!"
+read -p "Nhấn RETURN để tiếp tục."
+# Lưu ý
+clear
+echo "Xin bạn hãy bỏ ra 2-5 phút để đọc những lưu ý này, vì nếu có rủi ro do bạn không đọc, mình sẽ không chịu trách nhiệm trước những rủi ro đó."
 echo "--------------------"
-# Chuẩn bị
-echo "XÓA JAILBREAK CHO iOS 10.3.x DÙNG G0BLIN!"
-echo "Bạn vui lòng hãy xóa những Tweaks có trên màn hình trước khi chạy file này. Vì file này chỉ hỗ trợ 1 số tweak nổi bật: Filza, Ext3nder, AFC2, Cydown, iCleaner, Eraser, Activator, netKillUI, Anemone, CrashReporter."
-echo "Lúc xóa Filza, Ext3nder, CyDown, iCleaner, Eraser, Activator, netKillUI, Anemone, CrashReporter sẽ bị đứng hình 1 lúc bởi vì phải dùng uicache nên bạn hãy chờ và đừng làm gì cả."
-read -p "Nhấn Enter để chạy lệnh. Nhấn Ctrl + C để thoát."
+echo "Các lưu ý:"
+echo "Lưu ý 1: Bạn phải xoá tất cả các Tweak có trên màn hình chính trước khi tiến hành xóa Jailbreak."
+echo "Lưu ý 2: Trong lúc đang xoá Jailbreak, bạn không được làm bất cứ thứ gì như gọi điện, nhắn tin,..."
+echo "Lưu ý 3: Khi lệnh chạy xong, máy sẽ tự khởi động lại và trở về trạng thái như chưa từng Jailbreak."
+echo "Lưu ý 4: Hãy để Tự động khóa về 0 giây để không bị ảnh hưởng đến việc xóa Jailbreak."
 echo "--------------------"
+read -p "Nhấn RETURN để tiếp tục."
+# Các thay đổi
+clear
+echo "* Các thay đổi có trong bản 1.1:"
+echo "- Hỗ trợ xóa thêm:"
+echo "1. CrashReporter"
+echo "2. AppList"
+echo "3. OpenSSH, OpenSSL"
+echo "4. Apple File Conduit 2"
+echo "5. IconSupport"
+echo "6. Cephei"
+echo "7. libColorPicker"
+read -p "Nhấn RETURN để thực hiện việc xóa Jailbreak!"
 # Xóa file tạo từ g0blin
-echo "Đang xóa file tạo bởi g0blin..."
+clear
+echo "BẮT ĐẦU VIỆC XÓA JAILBREAK!"
+echo "--------------------"
+echo "Đang xóa những file tạo bởi g0blin..."
+rm -rf /.installed_g0blin_rc0
 rm -rf /.installed_g0blin_rc1
 rm -rf /.installed_g0blin_rc2
+/usr/bin/uicache
 # Xóa File ẩn...
-echo "Đang xóa file ẩn của Jailbreak..."
+echo "Đang xóa những file ẩn của Jailbreak..."
 rm -rf /Library/LaunchDaemons/*
 rm -rf /usr/games
 rm -rf /usr/lib/apt/
 rm -rf /usr/lib/dpkg/
 rm -rf /usr/lib/pam/
-rm -rf /usr/lib/pkgconfig/
 rm -rf /usr/libexec/cydia
 rm -rf /usr/libexec/gnupg
 rm -rf /usr/share/bigboss/
@@ -39,33 +62,31 @@ rm -rf /etc/profile.d/
 rm -rf /usr/bin/recache
 rm -rf /usr/bin/killall
 rm -rf /usr/lib/cycript0.9/
-rm -rf /usr/lib/engines/*
-rm -rf /usr/lib/ssl/	
-# Xóa linh tinh
-echo "Đang xóa những file linh tinh..."
-rm -rf /dev
+rm -rf /usr/lib/ssl/
+/usr/bin/uicache
+# Xóa rác
+echo "Đang xóa những file rác..."
 rm -rf /boot
 rm -rf /lib
 rm -rf /mnt
 rm -rf /Library/Themes/
 rm -rf /Library/Frameworks/*
-mkdir /Library/Frameworks/
 rm -rf /usr/share/terminfo/*
 rm -rf /usr/libexec/MSUnrestrictProcess
 rm -rf /usr/libexec/reload
 rm -rf /usr/libexec/substrate
-# Xóa Tweaks
-echo "Đang xóa file cơ bản..."
-rm -rf /Library/MobileSubstrate/*
-rm -rf /Library/PreferenceLoader/*
-rm -rf /Library/PreferenceBundles
-rm -rf /Library/Alkaline
-rm -rf /Library/Cylinder
-rm -rf /Library/Barrel
+rm -rf /var/mobile/Preferences/.com.springtomize.st4.stats.plist
+/usr/bin/uicache
+# Xóa files
+echo "Đang xóa file có sẵn khi Jailbreak..."
+rm -rf /Library/MobileSubstrate/
+rm -rf /Library/PreferenceLoader/
+rm -rf /Library/PreferenceBundles/
+rm -rf /Library/Alkaline/
+rm -rf /Library/Cylinder/
+rm -rf /Library/Barrel/
 rm -rf /Library/LaunchDaemons/0.reload.plist
-rm -rf /Library/LaunchDaemons/com.openssh.sshd.plist
 rm -rf /Library/LaunchDaemons/com.saurik.Cydia.Startup.plist
-# rm -rf /Applications/MTerminal.app
 rm -rf /private/etc/pam.d/chkpasswd
 rm -rf /private/etc/pam.d/login
 rm -rf /private/etc/pam.d/other
@@ -80,7 +101,15 @@ rm -rf /var/mobile/Documents/Flex
 rm -rf /var/cache/apt
 rm -rf /var/lib/apt
 rm -rf /var/log/apt
-# Xóa Tweak thừa?
+/usr/bin/uicache
+# Xóa Tweak?
+clear
+echo "Bây giờ sẽ tiến hành việc xóa các Tweak hỗ trợ, xin bạn hãy kiên nhẫn."
+echo "--------------------"
+echo "Đang xóa Cydia Substrate..."
+rm -rf /Library/MobileSubstrate/DynamicLibraries/MobileSafey.dylib
+rm -rf /Library/MobileSubstrate/DynamicLibraries/MobileSafey/plist
+/usr/bin/uicache
 echo "Đang xóa Core Utilities..."
 rm -rf /usr/bin/[
 rm -rf /usr/bin/base64
@@ -154,10 +183,13 @@ rm -rf /usr/bin/yes
 rm -rf /usr/lib/coreutils
 rm -rf /usr/sbin/chroot
 rm -rf /etc/profile.d/coreutils.sh
-echo "Đang xóa Cydia Substrate..."
-rm -rf /Library/MobileSubstrate/DynamicLibraries/MobileSafey.dylib
-rm -rf /Library/MobileSubstrate/DynamicLibraries/MobileSafey/plist
-echo "Đang xóa BerkeleyDB..."
+/usr/bin/uicache
+echo "Đang xóa AppList..."
+rm -rf /System/Library/PreferenceBundles/AppList.bundle
+rm -rf /usr/include/AppList
+rm -rf /usr/lib/libapplist.dylib
+/usr/bin/uicache
+echo "Đang xóa Berkeley DB..."
 rm -rf /usr/bin/db_archive
 rm -rf /usr/bin/db_codegen
 rm -rf /usr/bin/db_checkpoint
@@ -174,22 +206,67 @@ rm -rf /usr/include/db_cxx.h
 rm -rf /usr/include/db.h
 rm -rf /usr/lib/libdb-4.6.dylib
 rm -rf /usr/lib/libdb-4.6.la
+/usr/bin/uicache
+echo "Đang xóa OpenSSH..."
+rm -rf /etc/ssh
+rm -rf /usr/bin/scp
+rm -rf /usr/bin/sftp
+rm -rf /usr/bin/ssh
+rm -rf /usr/bin/ssh-add
+rm -rf /usr/bin/ssh-agent
+rm -rf /usr/bin/ssh-keygen
+rm -rf /usr/bin/ssh-keyscan
+rm -rf /usr/bin/slogin
+rm -rf /usr/libexec/sftp-server
+rm -rf /usr/libexec/sftp-keysign
+rm -rf /usr/libexec/ssh-pkcs11-helper
+rm -rf /usr/libexec/sshd-keygen-wrapper
+rm -rf /usr/sbin/sshd
+rm -rf /var/empty
+/usr/bin/uicache
+echo "Đang xóa OpenSSL..."
+rm -rf /usr/bin/openssl
+rm -rf /usr/bin/c_rehash
+rm -rf /usr/include/openssl
+rm -rf /usr/lib/libcrypto.0.9.8.dylib
+rm -rf /usr/lib/libcrypto.dylib
+rm -rf /usr/lib/libssl.0.9.8.dylib
+rm -rf /usr/lib/libssl.dylib
+rm -rf /usr/lib/engines/
+rm -rf /usr/lib/pkgconfig/
+rm -rf /usr/lib/ssl/
+/usr/bin/uicache
+echo "Đang xóa libColorPicker..."
+rm -rf /usr/bin/libcolorpicker.dylib
+read -t 1
+echo "Đang xóa IconSupport..."
+rm -rf /Library/Application Support/IconSupport/
+read -t 1
 echo "Đang xóa unzip..."
 rm -rf /usr/bin/funzip
 rm -rf /usr/bin/unzip
 rm -rf /usr/bin/unzipsfx
+read -t 1
 echo "Đang xóa zip..."
 rm -rf /usr/bin/zip
 rm -rf /usr/bin/zipcloak
 rm -rf /usr/bin/zipnote
 rm -rf /usr/bin/zipsplit
+read -t 1
 echo "Đang xóa FlipSwitch..."
 rm -rf /Library/Flipswitch
+rm -rf Library/Application Support/FlipControlCenter/
 rm -rf /Library/MobileSubstrate/DynamicLibraries/Flipswitch.plist
 rm -rf /Library/PreferenceBundles/FlipswitchSettings.bundle
 rm -rf /Library/Switches
 rm -rf /usr/include/llipswitch
 rm -rf /usr/lib/libflipswitch.dylib
+/usr/bin/uicache
+echo "Đang xoá FlipControlCenter..."
+rm -rf /Library/Application Support/FlipControlCenter
+rm -rf /Library/CCLoader
+rm -rf /usr/lib/libflipcontrolcenter.dylib
+/usr/bin/uicache
 echo "Đang xóa RocketBootstrap..."
 rm -rf /Library/LaunchDaemons/com.rpetrich.rocketbootstrapd.plist
 rm -rf /Library/MobileSubstrate/DynamicLibraries/RocketBootstrap.plist
@@ -199,8 +276,27 @@ rm -rf /usr/lib/librocketbootstrap.dylib
 rm -rf /usr/libexec/_rocketd_reenable
 rm -rf /usr/libexec/rocketd
 /usr/bin/uicache
+echo "Đang xóa xóa Cephei..."
+rm -rf /usr/bin/defaults
+rm -rf /usr/lib/Cephei.framework
+rm -rf /usr/lib/CepheiPrefs.framework
+rm -rf /usr/lib/libcephei.dylib
+rm -rf /usr/lib/libcepheiprefs.dylib
+rm -rf /usr/lib/libhbangcommon.dylib
+rm -rf /usr/lib/libhbangprefs.dylib
+/usr/bin/uicache
+# Xóa CrashReporter?
+echo "Đang xóa CrashReporter..."
+rm -rf /usr/lib/libcrashreport.dylib
+rm -rf /usr/lib/libpackageinfo.dylib
+rm -rf /usr/lib/libsymbolicate.dylib
+rm -rf /usr/include/libcrashreport/
+rm -rf /usr/include/libpackageinfo/
+rm -rf /usr/include/libsymbolicate/
+rm -rf /Applications/CrashReporter.app/
+/usr/bin/uicache
 # Xoá netKillUI?
-echo "Đang xoá netKillUI...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
+echo "Đang xoá netKillUI..."
 rm -rf /usr/bin/awk
 rm -rf /usr/bin/gawk
 rm -rf /usr/bin/igawk
@@ -254,11 +350,11 @@ rm -rf /usr/local/share/man
 rm -rf /Applications/netKillUI.app
 /usr/bin/uicache
 # Xoá Eraser Cho 10.3.x?
-echo "Đang xoá Eraser Cho 10.3.x...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
+echo "Đang xoá Eraser Cho 10.3.x..."
 rm -rf /Applications/Eraser.app
 /usr/bin/uicache
 # Xoá Anemone?
-echo "Đang xóa Anemone...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
+echo "Đang xóa Anemone..."
 rm -rf /Applications/Anemone.app
 rm -rf /Library/Themes
 rm -rf /usr/bin/AnemoneOptimizer
@@ -267,19 +363,23 @@ rm -rf /usr/bin/recache
 rm -rf /usr/bin/pincrush
 /usr/bin/uicache
 # Xoá Activator?
-echo "Đang xoá Activator...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
+echo "Đang xoá Activator..."
 rm -rf /Applications/Activator.app
 rm -rf /Library/Activator
 rm -rf /usr/bin/activator
+rm -rf /var/mobile/Library/libactivator
+rm -rf /var/mobile/Library/libactivator.plist
 rm -rf /usr/lib/libactivator.dylib
 rm -rf /usr/include/libactivator
+rm -rf /var/mobile/Library/Preferences/libactivator.exported.plist
 /usr/bin/uicache
 # Xóa AFC2?
-echo "Đang xóa AFC2...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
+echo "Đang xóa Apple File Conduit 2..."
 rm -rf /Library/LaunchDaemons/afc2d.plist
 rm -rf /Library/MobileSubstrate/DynamicLibraries/afc2dService.dylib
 rm -rf /Library/MobileSubstrate/DynamicLibraries/afc2dService.plist
 rm -rf /usr/libexec/afc2d
+/usr/bin/uicache
 # Xóa Filza?
 echo "Đang xóa Filza..."
 rm -rf /Applications/Filza.app
@@ -289,24 +389,26 @@ rm -rf /usr/lib/FilzaPass.dylib
 rm -rf /usr/bin/unrar
 rm -rf /usr/lib/p7zip
 rm -rf /var/mobile/Library/Filza
+rm -rf /var/mobile/Library/Preferences/com.tigisoftware.Filza.plist
 /usr/bin/uicache
 # Xoá iCleaner Pro?
-echo "Đang xoá iCleaner Pro...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
+echo "Đang xoá iCleaner Pro..."
 rm -rf /Applications/iCleaner.app
 rm -rf /Library/Switches/ICClean.bundle
 rm -rf /Library/Switches/ICCleanNP.bundle
 rm -rf /usr/bin/icleaner
 /usr/bin/uicache
 # Xóa Ext3nder?
-echo "Đang xóa Ext3nder...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
+echo "Đang xóa Ext3nder..."
 rm -rf /var/Ext3nder-Installer
 rm -rf /Applications/Ext3nder.app
 rm -rf /Library/Switches/Ext3nderSwitch.bundle
 rm -rf /var/mobile/Documents/Ext3nder
 /usr/bin/uicache
 # Xóa CyDown?
-echo "Đang xóa CyDown...(PHÒNG CHỪA TRƯỜNG HỢP QUÊN XÓA)"
+echo "Đang xóa CyDown..."
 rm -rf /Applications/cydown.app
+rm -rf /var/mobile/Library/Preferences/com.julioverne.cydown.plist
 rm -rf /Library/Switcher/CyDownSwitch.bundle
 rm -rf /etc/symlibs.dylib
 rm -rf /usr/bin/cydown
@@ -317,12 +419,14 @@ rm -rf /var/mobile/Documents/CyDown
 /usr/bin/uicache
 # Xóa Bootstrap
 echo "Đang xóa Cydia Bootstrap..."
-echo "HÃY CẦU NGUYỆN NÓ THÀNH CÔNG..."
+read -t 1
+echo "HÃY CẦU NGUYỆN NÓ THÀNH CÔNG!!!"
 rm -rf /Applications/Cydia.app/
+rm -rf /var/mobile/Library/Cydia
 rm -rf /.cydia_no_stash
+rm -rf /var/mobile/Library/Preferences/com.saurik.Cydia.plist
 rm -rf /private/etc/apt/
 rm -rf /var/mobile/Library/Caches/com.saurik.Cydia
-rm -rf /Library/Frameworks/CydiaSubstrate.framework
 rm -rf /usr/include/dpkg
 rm -rf /bin/bash
 rm -rf /bin/bunzip2
@@ -337,6 +441,7 @@ rm -rf /bin/chown
 rm -rf /bin/date
 rm -rf /bin/dd
 rm -rf /bin/dir
+/usr/bin/uicache
 # rm -rf /bin/echo
 rm -rf /bin/egrep
 rm -rf /bin/false
@@ -379,6 +484,7 @@ rm -rf /bin/zmore
 rm -rf /bin/znew
 rm -rf /Library/LaunchDaemons/com.openssh.sshd.plist
 rm -rf /Library/LaunchDaemons/com.saurik.Cydia.Startup.plist
+/usr/bin/uicache
 rm -rf /private/etc/alternatives/
 rm -rf /private/etc/apt/
 rm -rf /private/etc/default/
@@ -420,6 +526,7 @@ rm -rf /usr/bin/dpkg
 rm -rf /usr/bin/dpkg-deb
 rm -rf /usr/bin/dpkg-divert
 rm -rf /usr/bin/dpkg-maintscript-helper
+/usr/bin/uicache
 rm -rf /usr/bin/dpkg-query
 rm -rf /usr/bin/dpkg-split
 rm -rf /usr/bin/dpkg-statoverride
@@ -453,29 +560,22 @@ rm -rf /usr/bin/lzmainfo
 rm -rf /usr/bin/lzmore
 rm -rf /usr/bin/ncurses5-config
 rm -rf /usr/bin/ncursesw5-config
-rm -rf /usr/bin/openssl
 rm -rf /usr/bin/pagesize
 rm -rf /usr/bin/passwd
 rm -rf /usr/bin/renice
 rm -rf /usr/bin/reset
 rm -rf /usr/bin/sbdidlaunch
 rm -rf /usr/bin/sbreload
-rm -rf /usr/bin/scp
 rm -rf /usr/bin/script
 rm -rf /usr/bin/sdiff
 rm -rf /usr/bin/sw_vers
-rm -rf /usr/bin/sftp
-rm -rf /usr/bin/ssh
-rm -rf /usr/bin/ssh-add
-rm -rf /usr/bin/ssh-agent
-rm -rf /usr/bin/ssh-keygen
-rm -rf /usr/bin/ssh-keyscan
 rm -rf /usr/bin/tic
 rm -rf /usr/bin/time
 rm -rf /usr/bin/toe
 rm -rf /usr/bin/tput
 rm -rf /usr/bin/tset
 # rm -rf /usr/bin/uicache
+/usr/bin/uicache
 rm -rf /usr/bin/uiduid
 rm -rf /usr/bin/uiopen
 rm -rf /usr/bin/unlzma
@@ -516,6 +616,7 @@ rm -rf /usr/lib/libncursesw.dylib
 rm -rf /usr/lib/libpam.1.0.dylib
 rm -rf /usr/lib/libpam.1.dylib
 rm -rf /usr/lib/libpam.dylib
+/usr/bin/uicache
 rm -rf /usr/lib/libpam_misc.1.dylib
 rm -rf /usr/lib/libpam_misc.dylib
 rm -rf /usr/lib/libpamc.1.dylib
@@ -535,8 +636,6 @@ rm -rf /usr/libexec/bigram
 rm -rf /usr/libexec/code
 rm -rf /usr/libexec/frcode
 rm -rf /usr/libexec/rmt
-rm -rf /usr/libexec/ssh-keysign
-rm -rf /usr/libexec/ssh-pkcs11-helper
 rm -rf /usr/libexec/cydia
 rm -rf /usr/libexec/gnupg
 rm -rf /usr/sbin/ac
@@ -565,8 +664,14 @@ rm -rf /usr/bin/cycc
 rm -rf /usr/bin/env
 rm -rf /usr/libexec/cydia/
 rm -rf /var/tmp/cydia.log
+/usr/bin/uicache
+echo ".................................................."
+echo "Đã xoá xong Cydia Bootstrap!"
+echo "Bạn hãy chờ để lưu thay đổi."
+/usr/bin/uicache
 # Sửa hosts
-echo "Đang sửa lại file hosts..."
+echo "--------------------"
+echo "Đang sửa lại file hosts về mặc định..."
 echo "##" > /etc/hosts
 echo "# Host Database" >> /etc/hosts
 echo "#" >> /etc/hosts
@@ -576,16 +681,13 @@ echo "##" >> /etc/hosts
 echo "127.0.0.1	localhost" >> /etc/hosts
 echo "255.255.255.255	broadcasthost" >> /etc/hosts
 echo "::1             localhost" >> /etc/hosts
-# Xóa file cần thiết để chạy lệnh
-echo "Đang xóa nốt phần cần thiết để chạy lệnh..."
 /usr/bin/uicache
-rm -rf /usr/bin/uicache
+# Xóa file cần thiết để chạy lệnh
+echo "Đang xóa những file cần thiết cho việc chạy lệnh diễn ra thật suôn sẻ..."
 rm -rf /bin/sh
 rm -rf /Applications/MTerminal.app
 rm -rf /bin/echo
+/usr/bin/uicache
+rm -rf /usr/bin/uicache
 rm -rf /bin/rm
-# XONG?
-echo "Vậy là đã xong? Chắc thế, ít nhất là từ thư mục"
-echo "bootstrap của g0blin. Hãy tiếp tục cầu nguyện :)"
-read -p "Nhấn Enter để xáo thực khởi động lại"
 kill 1
