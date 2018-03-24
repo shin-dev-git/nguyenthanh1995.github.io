@@ -1,8 +1,11 @@
 Origin: DevNTNghia's Repo
-Label: DevNTNghia's Repo
+Label: DevNTNghia
 Suite: stable
 Version: 1.0
-Codename: ios
+Codename: devntnghia
 Architectures: iphoneos-arm
 Components: main
-Description: DevNTNghia's Repo
+Description: DevNTNghia's Tweaks
+MD5Sum:
+ 2663dbfce1a03e47d8ba4293f06f8cee 3133 Packages
+ 1aff2b24459841ca17203758919bd46a 1197 Packages.bz2
