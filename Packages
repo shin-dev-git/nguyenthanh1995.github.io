@@ -3,10 +3,10 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/Eraser.deb
-Size: 520574
-MD5sum: 1172a2c60b002fd5704b00965817c68a
-SHA1: f61870727746d5486715312182edc89a497f5a13
-SHA256: 95a942b29b84dfeeaa84b9ffc2ee7fb119a3810a2d241cfcd8aa2da33f908f28
+Size: 520608
+MD5sum: 07beb8f71b5657eedf51640751dd0316
+SHA1: c49db0475494ba9f83d37dacb6149decbe5d4617
+SHA256: a287154ceea5e720a28725eafe633c0413285699fa99ad796874e8359e25e54c
 Section: Utilities
 Description: Eraser cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
@@ -19,10 +19,10 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/BytaFont.deb
-Size: 2003536
-MD5sum: 0e7f43521fba5355947309eb53abf001
-SHA1: 755eb0caddcf3291ee7c708db54bd69d4597b21e
-SHA256: 51e39fb46a249b09f63fbc3613bc2cc8c99011bd9e0d14eac05334b9265ef0cc
+Size: 2003616
+MD5sum: c9805367393de51bf27f59a8953cbf5a
+SHA1: cde6bcb1cd2fbb86264a9d6d902e8b944a72fbaf
+SHA256: 78b79ec50feabca16b4a806524dda6e525e7b1daa7df7b2f369ffd2a269e40b2
 Section: Utilities
 Description: BytaFont cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
@@ -36,10 +36,10 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/CrashReporter.deb
-Size: 338060
-MD5sum: 424783e839fe4aafce4871d2691735a5
-SHA1: 1329777b84d9e4352a8aff42953e482b0a488869
-SHA256: 99a7b6794b3f08a8afa34f6882c892a3b24ce92e23ef2d38309374be10e46d7e
+Size: 338156
+MD5sum: 9f282d8acfb5182875289195715b69b6
+SHA1: 3f43fbec69e8865a7ea23ab7eabb7318fbca208f
+SHA256: 0ed5a205a39a2fa1be0968df0402dd29ff37b1faac1767463effa77bd62a4757
 Section: Utilities
 Description: CrashReporter cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
@@ -53,10 +53,10 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/netKillUI.deb
-Size: 261620
-MD5sum: 1ab713eecced6b3894643cf3862286db
-SHA1: e56c969a1950d706b0ba51a1725b974dfdf59f81
-SHA256: e10a5719835fc436018cbe390cf4f189d5a57a996a27a8384871867890fb532a
+Size: 261730
+MD5sum: 8badb6a0bc5dd94fb3f9802b4cdbac59
+SHA1: b67521130bd42b793c14f3e5a4eba2e01c8227dc
+SHA256: 51c802925678929a5accb6cb384a6156fd20787e81198914999cec9402fcf6c6
 Section: Utilities
 Description: netKillUI cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
@@ -69,10 +69,10 @@ Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/netKillUI.deb
-Size: 6966
-MD5sum: 3f79f76719555f17be36c065308eb29c
-SHA1: 56443e9c6d03b1515ce3afced84be5cfa0811d3a
-SHA256: 11ad77e0368ead508db8fd1f316adf88e813bfc8ae3af8635a9abf8e3c29b7f4
+Size: 6950
+MD5sum: 500d0755dfff08dbe2bc82a345f10ddd
+SHA1: 0c4d044ab5fd02051a0a13ed1eaaee70b02382f8
+SHA256: da2061b57131f678e57b085970c356edaef6f34bcdc6a8d886e7ba431b1c3cf8
 Section: Utilities
 Description: Semi-Restore cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
@@ -85,10 +85,10 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/BytaFontTM.deb
-Size: 27626
-MD5sum: b67f5e4a9a97da30dfcf977eebd20f9e
-SHA1: fd855faf7cbff9feab0546274e7509b7a1d5000f
-SHA256: 2121bedd5e77392cae081308b0f50235871ed92c3362916c7d5a61b21ed80f26
+Size: 27790
+MD5sum: a1294fc6cc34e579aad11d03f3a31b95
+SHA1: 5a9a16e337d9cf58cfd895114483056e5072d39b
+SHA256: 3a2de1edf71920fdee3c0c725d6efd2f72054825a00a451689a89e30e7d7c49c
 Section: Utilities
 Description: BytaFontTM cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Depends: mobilesubstrate
@@ -100,10 +100,10 @@ Version: 1.8.1-1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/ArpScan.deb
-Size: 283340
-MD5sum: 64f16f5ad06a7912eadc35a183b5c33a
-SHA1: 41165017b53f26f42f006b706fa6a268caab4091
-SHA256: 9b82707706b51c17ee61229dcb5e73fdebd06cc1b7080fb6353b756222912b1c
+Size: 283492
+MD5sum: b2c3b1abd6b95d70973a578a76aba6fe
+SHA1: 9b9085871e4e8b813561f87a7b137763ede702f9
+SHA256: d14b25caa33e0e4c57dc51d7f9a645ea207285ecd73217f64e5fd772edac8714
 Section: Utilities
 Description: ArpScan cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Depends: libpcap
@@ -115,10 +115,10 @@ Version: 2.4b2-1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/DsniffSuite.deb
-Size: 2110586
-MD5sum: 8a2edc4f388dffa6d5b09d92383f594b
-SHA1: 58c75678a860f40532e9fbd35195074499751639
-SHA256: c712ddad88550d27330b75f6064ea7b501709bec047144fd989ed58c32661cc6
+Size: 2110742
+MD5sum: 10b88fad9c4977d8d45486909a9cdddc
+SHA1: fc2df38083561ea08a68729e8e109cc7b3dac2ce
+SHA256: b25f7ed53ed223a1572a8f4c4810637ed73167b1f89ae2b20bca53acb069a5db
 Section: Utilities
 Description: DsniffSuite cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Conflicts: org.mulliner.dsniff
@@ -130,10 +130,10 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/MTerminal.deb
-Size: 128910
-MD5sum: 59e0bcf65ba869792340bf3019901b27
-SHA1: 63e1bf8bbb333dcd176bcc2d18d94afd4d27db5a
-SHA256: d80831d408e05c44219e1e5567d15e52c7e5391cfa6aae29b62711f485442cf9
+Size: 129078
+MD5sum: 3791ae1665597d6bc5fd4664149bde4c
+SHA1: 24fd694e0f944a24a533ae09a9bb037c4017a58f
+SHA256: 42f40a57b225611bd849a9aa57adf00647e19c6cf5e555d209aa34b88dcb43e1
 Section: Utilities
 Description: MTerminal cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Depends: firmware (>= 4.0), system-cmds
