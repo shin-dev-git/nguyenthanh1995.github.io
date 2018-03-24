@@ -19,10 +19,10 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/BytaFont.deb
-Size: 2003538
-MD5sum: fddc4689d77ad016a0f1afd5ddec3df0
-SHA1: 10488fc6a88a50b080e0a9e77a2fccd4438afc75
-SHA256: f4c3eea11298806e732b1b144db23a4e0895174151ca6381832b072388cdfd48
+Size: 2003536
+MD5sum: 0e7f43521fba5355947309eb53abf001
+SHA1: 755eb0caddcf3291ee7c708db54bd69d4597b21e
+SHA256: 51e39fb46a249b09f63fbc3613bc2cc8c99011bd9e0d14eac05334b9265ef0cc
 Section: Utilities
 Description: BytaFont cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
