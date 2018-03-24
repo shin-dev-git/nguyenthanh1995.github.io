@@ -1,9 +1,0 @@
-Package: semirestore
-Architecture: iphoneos-arm
-Name: Semi-Restore Cho 10.3.x
-Section: Utilities
-Version: 1.1
-Author: NTNghia
-Description: Dùng để xoá Jailbreak, thay thế Cydia Eraser. Chỉ được thử nhiệm với phiên bản 64bit, bản 32bit chưa được thử nhiệm nên có thể sẽ không thành công.
-Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
-Depends: com.officialscheduler.mterminal, coreutils

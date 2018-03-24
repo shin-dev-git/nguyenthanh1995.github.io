@@ -1,13 +1,69 @@
 Package: com.devntnghia.eraser
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/Eraser.deb
-Size: 519912
-MD5sum: 93c8dc6d18be80ed75ece14c2e002b9d
-SHA1: 837d9bdec63928e2233a612ed030345925d91cee
-SHA256: cb9aea46e47e74ad6af99e60354c4558e7742c1d2ed952d2cc86df1d573ed245
-Section: Tweaks
-Description: Eraser cho iOS 10.3.x được tạo bởi NTNghia. Người hiện đang là Admin trong nhóm Group Jailbreak ( Chia sẻ niềm đam mê ).
+Size: 520574
+MD5sum: 1172a2c60b002fd5704b00965817c68a
+SHA1: f61870727746d5486715312182edc89a497f5a13
+SHA256: 95a942b29b84dfeeaa84b9ffc2ee7fb119a3810a2d241cfcd8aa2da33f908f28
+Section: Utilities
+Description: Eraser cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Author: NTNghia <hiimnghia@icloud.com>
 Name: Eraser Cho iOS 10.3.x (64bit)
+
+Package: com.devntnghia.bytafont
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Filename: /debs/BytaFont.deb
+Size: 2003538
+MD5sum: fddc4689d77ad016a0f1afd5ddec3df0
+SHA1: 10488fc6a88a50b080e0a9e77a2fccd4438afc75
+SHA256: f4c3eea11298806e732b1b144db23a4e0895174151ca6381832b072388cdfd48
+Section: Utilities
+Description: BytaFont cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Author: NTNghia <hiimnghia@icloud.com>
+Name: BytaFont Cho iOS 10.3.x
+
+Package: com.devntnghia.crashreporter
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Filename: /debs/CrashReporter.deb
+Size: 338060
+MD5sum: 424783e839fe4aafce4871d2691735a5
+SHA1: 1329777b84d9e4352a8aff42953e482b0a488869
+SHA256: 99a7b6794b3f08a8afa34f6882c892a3b24ce92e23ef2d38309374be10e46d7e
+Section: Utilities
+escription: CrashReporter cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Author: NTNghia <hiimnghia@icloud.com>
+Name: CrashReporter Cho iOS 10.3.x
+
+Package: com.devntnghia.netkillui
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Filename: /debs/netKillUI.deb
+Size: 261620
+MD5sum: 1ab713eecced6b3894643cf3862286db
+SHA1: e56c969a1950d706b0ba51a1725b974dfdf59f81
+SHA256: e10a5719835fc436018cbe390cf4f189d5a57a996a27a8384871867890fb532a
+Section: Utilities
+Description: netKillUI cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Author: NTNghia <hiimnghia@icloud.com>
+Name: netKillUI Cho iOS 10.3.x
+
+Package: com.devntnghia.semi-restore
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Filename: /debs/netKillUI.deb
+Size: 6966
+MD5sum: 3f79f76719555f17be36c065308eb29c
+SHA1: 56443e9c6d03b1515ce3afced84be5cfa0811d3a
+SHA256: 11ad77e0368ead508db8fd1f316adf88e813bfc8ae3af8635a9abf8e3c29b7f4
+Section: Utilities
+Description: Semi-Restore cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Author: NTNghia <hiimnghia@icloud.com>
+Name: Semi-Restore Cho iOS 10.3.x
