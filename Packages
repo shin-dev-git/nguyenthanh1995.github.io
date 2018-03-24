@@ -41,7 +41,7 @@ MD5sum: 424783e839fe4aafce4871d2691735a5
 SHA1: 1329777b84d9e4352a8aff42953e482b0a488869
 SHA256: 99a7b6794b3f08a8afa34f6882c892a3b24ce92e23ef2d38309374be10e46d7e
 Section: Utilities
-escription: CrashReporter cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Description: CrashReporter cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
 Depends: coreutils, dpkg, grep, jp.ashikase.libcrashreport (>= 1.1.0), jp.ashikase.libpackageinfo (>= 1.1.0), jp.ashikase.techsupport (>= 1.5.0), mobilesubstrate, preferenceloader
 Icon: file:///Applications/CrashReporter.app/Icon-60@2x.png
