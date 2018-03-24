@@ -1,8 +1,8 @@
-Package: com.ntnghia.eraser
+Package: com.devntnghia.eraser
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
-Filename: /debs/Eraserr.deb
+Filename: /debs/Eraser.deb
 Size: 519912
 MD5sum: 93c8dc6d18be80ed75ece14c2e002b9d
 SHA1: 837d9bdec63928e2233a612ed030345925d91cee
