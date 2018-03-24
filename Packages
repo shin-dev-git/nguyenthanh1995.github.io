@@ -68,7 +68,7 @@ Package: com.devntnghia.semi-restore
 Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
-Filename: /debs/netKillUI.deb
+Filename: /debs/SemiRestore.deb
 Size: 6950
 MD5sum: 500d0755dfff08dbe2bc82a345f10ddd
 SHA1: 0c4d044ab5fd02051a0a13ed1eaaee70b02382f8
