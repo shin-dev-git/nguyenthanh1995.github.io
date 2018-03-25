@@ -150,10 +150,10 @@ Maintainer: NTNghia <hiimnghia@icloud.com>
 Author: Hà Tía Tô
 Section: Font AnemoneDescription: Font Edgy được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
 Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
-Size: 15817920
-MD5Sum: 44adf97a8f6f17d1653bc6d84f5d4dac
-SHA1: d261a24939464d5478df6154fb783d9d2ba28af9
-SHA256: 4dd6f0be2960fefa0cfed74cf1b3e2709456db10446cc0454a85821a927bd7fb
+Size: 15817814
+MD5Sum: cc93e04c6e775231168b8d25849d09e5
+SHA1: ac25ddb90a2692ba9d61f8ce77c5f4b8ecd5717f
+SHA256: c01483e4df4435611fc3e1f3f75789f06599071c012757f78534be18069f732f
 
 Package: com.hatiato.edgyht
 Name: Edgy Font By HTT
@@ -164,7 +164,7 @@ Maintainer: NTNghia <hiimnghia@icloud.com>
 Author: Hà Tía Tô
 Section: Font Hệ thốngDescription: Font Edgy được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm! Bạn hãy quét rác bằng iCleaner sau khi cài Font này.
 Depends: firmware (>= 10.3), firmware (<= 11.1.2)
-Size: 15816996
-MD5Sum: 44adf97a8f6f17d1653bc6d84f5d4dac
-SHA1: a97441d2b81ffc18e9c6884ff227553f96773810
-SHA256: 17d6383273b9115aab7beb2709cf25ac2e2f8337b6e36e6c8ec7d30101ac97a2
+Size: 15816852
+MD5Sum: 5f40c85f2fb7220fcb76e40cf4ca5f0f
+SHA1: 75a075745761a6089899b79e4d90924124b7a723
+SHA256: bb984e72f0f97a05955c2730dc88a25dd0228345e3f5250aa0f0407bd4667362
