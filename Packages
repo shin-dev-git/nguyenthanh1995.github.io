@@ -54,9 +54,9 @@ Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/netKillUI.deb
 Size: 261730
-MD5sum: 8badb6a0bc5dd94fb3f9802b4cdbac59
-SHA1: b67521130bd42b793c14f3e5a4eba2e01c8227dc
-SHA256: 51c802925678929a5accb6cb384a6156fd20787e81198914999cec9402fcf6c6
+MD5sum: bdb0b65988ae978f4a2d6304576462ae
+SHA1: 8173ba1ffd6d8faea9f3096c1fee2dd1bcfe071f
+SHA256: 155bd2055794cf62f6baa16603d6e1a883292462003e79c5bd03e89477986c62
 Section: Utilities
 Description: netKillUI cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
@@ -69,7 +69,7 @@ Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/SemiR.deb
-Size: 6950
+Size: 6946
 MD5sum: d152bb4e768319fbd1f800c706312d8b
 SHA1: 9a128f7dc044e618835feb531d6745ea4e4b0844
 SHA256: eb7965f77b1a02a89793a480347375774febae71174c6a79504fb58a4ee95f34
