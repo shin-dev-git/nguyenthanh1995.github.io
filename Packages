@@ -5,7 +5,7 @@ Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/Eraser.deb
 Size: 520608
 MD5sum: 07beb8f71b5657eedf51640751dd0316
-SHA1: c49db0475494ba9f83d37dacb6149decbe5d4617
+SHA1: gc49db0475494ba9f83d37dacb6149decbe5d4617
 SHA256: a287154ceea5e720a28725eafe633c0413285699fa99ad796874e8359e25e54c
 Section: Utilities
 Description: Eraser cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
@@ -116,7 +116,7 @@ Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/DsniffSuite.deb
 Size: 2110742
-MD5sum: 10b88fad9c4977d8d45486909a9cdddc
+MD5sum: beede1b4978e66954ca336073d9c194e
 SHA1: fc2df38083561ea08a68729e8e109cc7b3dac2ce
 SHA256: b25f7ed53ed223a1572a8f4c4810637ed73167b1f89ae2b20bca53acb069a5db
 Section: Development
@@ -140,3 +140,31 @@ Depends: firmware (>= 4.0), system-cmds
 Author: NTNghia <hiimnghia@icloud.com>
 Icon: file:///Applications/MTerminal.app/Icon.png
 Name: MTerminal Cho 10.3.x
+
+Package: com.hatiato.edgy
+Name: Edgy Font By HTT
+Version: 1.0
+Filename: /debs/EdgyA.deb
+Architecture: iphoneos-arm
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Author: Hà Tía Tô
+Section: Font (Anemone)Description: Font Edgy được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
+Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
+Size: 15817920
+MD5Sum: 44adf97a8f6f17d1653bc6d84f5d4dac
+SHA1: d261a24939464d5478df6154fb783d9d2ba28af9
+SHA256: 4dd6f0be2960fefa0cfed74cf1b3e2709456db10446cc0454a85821a927bd7fb
+
+Package: com.hatiato.edgyht
+Name: Edgy Font By HTT
+Version: 1.0
+Filename: /debs/EdgyHT.deb
+Architecture: iphoneos-arm
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Author: Hà Tía Tô
+Section: Font (Hệ thống)Description: Font Edgy được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm! Bạn hãy quét rác bằng iCleaner sau khi cài Font này.
+Depends: firmware (>= 10.3), firmware (<= 11.1.2)
+Size: 15816996
+MD5Sum: 44adf97a8f6f17d1653bc6d84f5d4dac
+SHA1: a97441d2b81ffc18e9c6884ff227553f96773810
+SHA256: 17d6383273b9115aab7beb2709cf25ac2e2f8337b6e36e6c8ec7d30101ac97a2
