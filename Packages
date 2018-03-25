@@ -68,13 +68,13 @@ Package: com.devntnghia.semi-restore
 Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
-Filename: /debs/SemiRestore.deb
+Filename: /debs/SemiR.deb
 Size: 6950
-MD5sum: 500d0755dfff08dbe2bc82a345f10ddd
-SHA1: 0c4d044ab5fd02051a0a13ed1eaaee70b02382f8
-SHA256: da2061b57131f678e57b085970c356edaef6f34bcdc6a8d886e7ba431b1c3cf8
+MD5sum: d152bb4e768319fbd1f800c706312d8b
+SHA1: 9a128f7dc044e618835feb531d6745ea4e4b0844
+SHA256: eb7965f77b1a02a89793a480347375774febae71174c6a79504fb58a4ee95f34
 Section: System
-Description: Semi-Restore cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Description: Semi-Restore cho iOS 10.3.x được làm ra bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
 Depends: com.devntnghia.mterminal
 Author: NTNghia <hiimnghia@icloud.com>
