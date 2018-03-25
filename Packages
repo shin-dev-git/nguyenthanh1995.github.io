@@ -164,7 +164,7 @@ Maintainer: NTNghia <hiimnghia@icloud.com>
 Author: Hà Tía Tô
 Section: Font Hệ thốngDescription: Font Edgy được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm! Bạn hãy quét rác bằng iCleaner sau khi cài Font này.
 Depends: firmware (>= 10.3), firmware (<= 11.1.2)
-Size: 15816852
-MD5Sum: 5f40c85f2fb7220fcb76e40cf4ca5f0f
-SHA1: 75a075745761a6089899b79e4d90924124b7a723
-SHA256: bb984e72f0f97a05955c2730dc88a25dd0228345e3f5250aa0f0407bd4667362
+Size: 15816850
+MD5Sum: 39294ffffbc40c698582b9debc9e6964
+SHA1: 4f950b75bcc43ccd83d481ee4e58c91f4176bf81
+SHA256: feeee794cc836f07a529bb1d7af31e53644201637a0f31bfacb7185aa8cf4805
