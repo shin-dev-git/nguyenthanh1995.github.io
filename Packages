@@ -60,7 +60,7 @@ SHA256: 51c802925678929a5accb6cb384a6156fd20787e81198914999cec9402fcf6c6
 Section: Utilities
 Description: netKillUI cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
-Depends: com.devntnghia.arpscan, com.devntnghia.dsniffsuite, network-cmds, libpcap, gawp
+Depends: com.devntnghia.arpscan, com.devntnghia.dsniffsuite, network-cmds, libpcap, gawk
 Author: NTNghia <hiimnghia@icloud.com>
 Name: netKillUI Cho iOS 10.3.x
 
