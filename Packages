@@ -156,20 +156,21 @@ MD5Sum: 2113935135076c6f807c29db4b7f8a85
 SHA1: caf16eb87db22c3e23659c621571860250e6b6f7
 SHA256: 6657ca8423141699aa7184bc302d8776a3822f2e6f12f73e1470e2134b00a7c2
 
-Package: com.hatiato.dream
+Package: com.hatiato.edgybeta
 Name: Dream Font By HTT
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Author: Hà Tía Tô
-Section: Font AnemoneDescription: Font Cariar Dream được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
+Description: Font Cariar Dream được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
 Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
 Filename: /debs/Dream.deb
 Icon: file:///Library/Themes/Dream.font/Icon.PNG
-Size: 14947272
-MD5Sum: b617d372e0156fb8c12eb3ca16209fef
-SHA1: 4542b3521ce0d74c427635982db6d587c50eb122
-SHA256: 489faa0fb8821597bbfefca966bc7b99d8a64840e42049b63b1fd77029038163
+Section: Font Anemone
+Size: 14947274
+MD5Sum: 2ebc18dabf73030f4ec43719988e1212
+SHA1: a927397fafe364803126789f5b18f3768df9d2ef
+SHA256: 891393d74b4aac7c9db4e9adb18c0d7da3b9a8a089fede3c2d21d266ad3b455c
 
 Package: com.hatiato.tex
 Name: Tex Font By HTT
@@ -186,3 +187,4 @@ Size: 16307944
 MD5Sum: de307c29e4f84029666e315ef9e9ab72
 SHA1: 3993711da992e7ed8d510f0c660d5196bc12f8df
 SHA256: 8d610c4ec1c37db26aaec74e09027fe3e9b55199f61f79f14b580b474b40c857
+
