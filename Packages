@@ -111,14 +111,14 @@ Author: NTNghia <hiimnghia@icloud.com>
 Name: ArpScan Cho netKillUI
 
 Package: com.devntnghia.dsniffsuite
-Version: 2.4b2-1
+Version: 2.5
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/DsniffSuite.deb
-Size: 2110742
-MD5sum: beede1b4978e66954ca336073d9c194e
-SHA1: fc2df38083561ea08a68729e8e109cc7b3dac2ce
-SHA256: b25f7ed53ed223a1572a8f4c4810637ed73167b1f89ae2b20bca53acb069a5db
+Size: 2110740
+MD5sum: e572a227da6a1c060edb0af0f533f236
+SHA1: 42bdd4a195bfa0a3da6d1ae319c17efdff6c6a2f
+SHA256: 0b693d8b31790aca31969dffabcbdc2fd7ab8bfc910392f496c1c661ab9300a0
 Section: Development
 Description: DsniffSuite cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Conflicts: org.mulliner.dsniff
