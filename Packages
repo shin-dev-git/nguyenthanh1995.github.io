@@ -65,18 +65,18 @@ Author: NTNghia <hiimnghia@icloud.com>
 Name: netKillUI Cho iOS 10.3.x
 
 Package: com.devntnghia.semi-restore
-Version: 1.1.1
+Version: 1.1.2
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Filename: /debs/SemiR.deb
-Size: 6946
-MD5sum: d152bb4e768319fbd1f800c706312d8b
-SHA1: 9a128f7dc044e618835feb531d6745ea4e4b0844
-SHA256: eb7965f77b1a02a89793a480347375774febae71174c6a79504fb58a4ee95f34
+Size: 6956
+MD5sum: dbddc9e136295d3190cf153a3b6a513c
+SHA1: eb710c1ece7749b43b6db8a34b5776e2219dbadf
+SHA256: 99f1d4b8119edd53c89eb8d00d7ac0f14cfc90e1a7c0a25f0e0497bb96281101
 Section: System
 Description: Semi-Restore cho iOS 10.3.x được làm ra bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
-Depends: com.devntnghia.mterminal
+Depends: com.devntnghia.mterminal, coreutils
 Author: NTNghia <hiimnghia@icloud.com>
 Name: Semi-Restore Cho iOS 10.3.x
 
