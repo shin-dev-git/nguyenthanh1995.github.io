@@ -143,18 +143,19 @@ Name: MTerminal Cho 10.3.x
 
 Package: com.hatiato.edgy
 Name: Edgy Font By HTT
-Version: 1.0.1
-Filename: /debs/Edgy.deb
+Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Author: Hà Tía Tô
 Section: Font Anemone
 Description: Font Edgy được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
 Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
-Size: 15831412
-MD5Sum: 2113935135076c6f807c29db4b7f8a85
-SHA1: caf16eb87db22c3e23659c621571860250e6b6f7
-SHA256: 6657ca8423141699aa7184bc302d8776a3822f2e6f12f73e1470e2134b00a7c2
+Icon: file:///Library/Themes/Edgy.font/Icon.PNG
+Filename: /debs/Edgy.deb
+Size: 15831400
+MD5Sum: 27b156398bb0e058104d7bdae9c144df
+SHA1: 799fd79081c7f64abf5313243ddad8930c65db44
+SHA256: 2d891629bd7312600a8ea1ef8720547160f5a9092302228a745dd0d52af0a563
 
 Package: com.hatiato.edgybeta
 Name: Dream Font By HTT
