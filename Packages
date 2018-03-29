@@ -188,3 +188,19 @@ Size: 16307944
 MD5Sum: de307c29e4f84029666e315ef9e9ab72
 SHA1: 3993711da992e7ed8d510f0c660d5196bc12f8df
 SHA256: 8d610c4ec1c37db26aaec74e09027fe3e9b55199f61f79f14b580b474b40c857
+
+Package: com.devntnghia.fixios841
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Section: Utilities
+Description: Fix iMessenges, FaceTime Cho iOS 8.4.1 được làm bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Pre-Depends: firmware (>= 8.4.1), firmware (<= 8.4.1)
+Depends: coreutils
+Author: NTNghia <hiimnghia@icloud.com>
+Name: Fix iMess, FTime Cho iOS 8.4.1
+Filename: /debs/fix841.deb
+MD5Sum: 223af15a4524a898e077876966c8641e
+SHA1: 5bf86c50e314d637565e505ce6240fa0ff2e5f8d
+SHA256: fd46d1109a0c15bace51eb57574f2be7cac209fb97e131f976ee4f28700b41dc
+Size: 878
