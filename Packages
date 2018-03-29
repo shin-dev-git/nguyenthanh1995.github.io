@@ -1,18 +1,18 @@
 Package: com.devntnghia.eraser
-Version: 1.1
+Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
-Filename: /debs/Eraser.deb
-Size: 520608
-MD5sum: 07beb8f71b5657eedf51640751dd0316
-SHA1: gc49db0475494ba9f83d37dacb6149decbe5d4617
-SHA256: a287154ceea5e720a28725eafe633c0413285699fa99ad796874e8359e25e54c
 Section: Utilities
 Description: Eraser cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
 Depends: mobilesubstrate
 Author: NTNghia <hiimnghia@icloud.com>
 Name: Eraser Cho iOS 10.3.x (64bit)
+MD5Sum: d105c426964fe8d65b8f7f44a97d42af
+SHA1: 0f72e645bf776b291620492ca250b52c9832730e
+SHA256: 54ad50ee8948396880dea64f93d055d051f853b822b19145864796969ad7a81a
+Size: 520610
+Filename: /debs/Eraser.deb
 
 Package: com.devntnghia.bytafont
 Version: 1.1
