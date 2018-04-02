@@ -204,3 +204,19 @@ MD5Sum: 223af15a4524a898e077876966c8641e
 SHA1: 5bf86c50e314d637565e505ce6240fa0ff2e5f8d
 SHA256: fd46d1109a0c15bace51eb57574f2be7cac209fb97e131f976ee4f28700b41dc
 Size: 878
+
+Package: com.devntnghia.s8theme
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Section: Themes
+Description: Theme Galaxy S8 Cho iPhone (Dòng không Plus). Được fix lại cho iPhone 5/5C/5S bởi DevNTNghia.
+Pre-Depends: firmware (>= 10), firmware (<= 11.1.2)
+Depends: com.anemonetheming.anemone, com.eldwin.iwidgets
+Author: NTNghia <hiimnghia@icloud.com>
+Name: Galaxy S8 Theme
+MD5Sum: 0296c605a62083a65fecb0557c63a3e7
+SHA1: 0dd07a14a09fe29d95269f60990a2c85da8647a7
+SHA256: f1fa101054f874cb3a040fba97de073c7f8213c444d349d751519944f6a9aace
+Size: 12623994
+Filename: /debs/S8.deb
