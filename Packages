@@ -206,17 +206,32 @@ SHA256: fd46d1109a0c15bace51eb57574f2be7cac209fb97e131f976ee4f28700b41dc
 Size: 878
 
 Package: com.devntnghia.s8theme
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Section: Themes
-Description: Theme Galaxy S8 Cho iPhone và iPad. Đã fix lại cho iPhone 5/5C/5S bởi DevNTNghia. NAY ĐƯỢC MỞ KHOÁ TẤT CẢ PHIÊN BẢN ĐÃ CÓ JAILBREAK ĐỂ BẠN CÓ THỂ THƯỞNG THỨC!
+Description: Theme Galaxy S8 Cho iPhone và iPad... Còn gì để nói nữa không nhỉ :v. Thôi thì chúc bạn ko dùng được Theme nha :3
 Pre-Depends: firmware (<= 11.1.2)
-Depends: com.anemonetheming.anemone, com.eldwin.iwidgets
+Depends: com.anemonetheming.anemone
 Author: NTNghia <hiimnghia@icloud.com>
 Name: Galaxy S8 Theme
-MD5Sum: f8170cf0e7f80313031144a9a56a1965
-SHA1: 8c42b4a34edcccad6251c15c914333862e76e747
-SHA256: 0f84f65c441f2efe6470a97e396639f62016d718194e81392fd0c6a20d1d2f90
-Size: 12666000
-Filename: /debs/S8.deb
+MD5Sum: bd3d31f0122fd215e18e70fa0f348c03
+SHA1: a8799535103cda55fb5db8d8da972d93244b55c7
+SHA256: 8394457daeaf26736d24d92ff226ca472761c35ac48665b88dd49ac6a6370aed
+Filename: /debs/S8T.deb
+Size: 11942552
+
+Package: com.devntnghia.s8widget
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Section: Themes
+Description: Widget Galaxy S8 Cho iPhone và iPad. Được fix lại cho iPhone 5/5C/5S bởi DevNTNghia
+Pre-Depends: firmware (<= 11.1.2)
+Author: NTNghia <hiimnghia@icloud.com>
+Name: Galaxy S8 Widgets
+MD5Sum: 0587070baff4f978e0b88ef0e9dad706
+SHA1: e1a03b87ec958e63371618ef0d7af83dab05b73b
+SHA256: 02a90c1dfc007d4f1a6a99c5e0c78030f7843c3cbea23cd63611ee96ef02cfc2
+Filename: /debs/S8W.deb
+Size: 706330
