@@ -31,23 +31,6 @@ Icon: file:///Applications/BytaFont3.app/AppIcon60x60@2x.png
 Author: NTNghia <hiimnghia@icloud.com>
 Name: BytaFont Cho iOS 10.3.x
 
-Package: com.devntnghia.crashreporter
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: NTNghia <hiimnghia@icloud.com>
-Filename: /debs/CrashReporter.deb
-Size: 338156
-MD5sum: 9f282d8acfb5182875289195715b69b6
-SHA1: 3f43fbec69e8865a7ea23ab7eabb7318fbca208f
-SHA256: 0ed5a205a39a2fa1be0968df0402dd29ff37b1faac1767463effa77bd62a4757
-Section: Utilities
-Description: CrashReporter cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
-Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
-Depends: coreutils, dpkg, grep, jp.ashikase.libcrashreport (>= 1.1.0), jp.ashikase.libpackageinfo (>= 1.1.0), jp.ashikase.techsupport (>= 1.5.0), mobilesubstrate, preferenceloader
-Icon: file:///Applications/CrashReporter.app/Icon-60@2x.png
-Author: NTNghia <hiimnghia@icloud.com>
-Name: CrashReporter Cho iOS 10.3.x
-
 Package: com.devntnghia.netkillui
 Version: 1.1
 Architecture: iphoneos-arm
