@@ -218,3 +218,21 @@ SHA1: e1a03b87ec958e63371618ef0d7af83dab05b73b
 SHA256: 02a90c1dfc007d4f1a6a99c5e0c78030f7843c3cbea23cd63611ee96ef02cfc2
 Filename: /debs/S8W.deb
 Size: 706330
+
+Package: com.devntnghia.wallpaper
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Section: Wallpaper
+Description: Bộ hình nền của iOS 11.3 cho các đời iOS cũ (10.x-11.1.2). Đã được DevNTNghia fix lại với size của từng dòng máy (4 Inch; 4,7 Inch; 5,5 Inch). Hiện tại mới chỉ hoạt động ở 4 Inch và 4,7 Inch, dòng 5,5 Inch sẽ được cập nhật vào bản 1.1.
+Pre-Depends: firmware (>= 10.0.1), firmware (<= 11.1.2)
+Depends: wget, unzip
+Conflict: com.devntnghia.wp113
+Author: NTNghia <hiimnghia@icloud.com>
+Name: Wallpaper iOS 11.3 for iPhone
+MD5Sum: 0994730d88d96b9954640223d4ac025d
+SHA1: 130918cb5bc112faa2355d65aed430119c4c4731
+SHA256: 
+61dbd76cad69034131dcdfe1a5ba99c98df7c8cd56c1284ab29be1b21b730329
+Size: 3832
+Filename: /debs/wallpaper.deb
