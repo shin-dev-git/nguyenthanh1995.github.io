@@ -220,7 +220,7 @@ Filename: /debs/S8W.deb
 Size: 706330
 
 Package: com.devntnghia.wallpaper
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Section: Wallpaper
@@ -230,9 +230,9 @@ Depends: wget, unzip
 Conflict: com.devntnghia.wp113
 Author: NTNghia <hiimnghia@icloud.com>
 Name: Wallpaper iOS 11.3 for iPhone
-MD5Sum: 0994730d88d96b9954640223d4ac025d
-SHA1: 130918cb5bc112faa2355d65aed430119c4c4731
+MD5Sum: e23f5f9aac0af881b80da6d66cd65a31
+SHA1: bd0daff554155459282aecd151dc3139a68d6e8f
 SHA256: 
-61dbd76cad69034131dcdfe1a5ba99c98df7c8cd56c1284ab29be1b21b730329
-Size: 3832
+2589c232b4889f6ad447078b7f6c279a4e7802d2ff98cd92c15bc243cee37949
+Size: 3834
 Filename: /debs/wallpaper.deb
