@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Origin: DevNTNghia's Repo 😘Label: NTNghiaSuite: stableVersion: 1.0Codename: devntnghiaArchitectures: iphoneos-armComponents: mainDescription: Nguồn chính thức của DevNTNghia. Tất cả các nguồn khác có chữ devntnghia đều là FAKE. Xin bạn lưu ý.
 MD5Sum:
  8fab189bc34cf9c49b61c8185bc61f43 8537 Packages
  dd0aa581ad01ea3f18ade71d2efd9cfb 2244 Packages.bz2
+=======
+Origin: DevNTNghia's Repo 😘Label: DevNTNghiaSuite: stableVersion: 1.0Codename: devntnghiaArchitectures: iphoneos-armComponents: mainDescription: Nguồn chính thức của DevNTNghia. Tất cả các nguồn khác có chữ devntnghia đều là FAKE. Xin bạn lưu ý.MD5Sum: 8fab189bc34cf9c49b61c8185bc61f43 8537 Packages dd0aa581ad01ea3f18ade71d2efd9cfb 2244 Packages.bz2
+>>>>>>> fe6766baa40120cbb877f411ebe65576a4d207bf
