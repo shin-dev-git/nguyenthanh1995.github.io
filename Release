@@ -5,7 +5,7 @@ Version: 1.0
 Codename: devntnghia
 Architectures: iphoneos-arm
 Components: main
-Description: Nguồn thuộc quyền sở hữu của DevNTNghia.
+Description: Nguồn chính thức của DevNTNghia (Người hiện đang là Admin của 2 nhóm "Thủ Thuật Cydia và Jailbreak" và "Group Cydia và Jailbreak"). Tất cả các nguồn khác có chữ "devntnghia" đều là FAKE. Xin bạn lưu ý!
 MD5Sum:
  388d8cc2785320d52702b981bd90986d 10354 Packages
  b2691b69d90b23ef244e580075a09f95 3225 Packages.bz2
