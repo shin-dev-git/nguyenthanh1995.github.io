@@ -1,0 +1,2 @@
+mv Release Release.BAOTRI
+echo -n "Origin: Bảo trì DevNTNghiaLabel: NTNghiaSuite: stableVersion: 1.0Codename: devntnghiaArchitectures: iphoneos-armComponents: mainDescription: NGUỒN TẠM THỜI ĐANG BẢO TRÌ. BẠN VUI LÒNG VÀO LẠI SAU!">> Release
