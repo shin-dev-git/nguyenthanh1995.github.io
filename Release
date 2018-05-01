@@ -1,11 +1,3 @@
-Origin: DevNTNghia's Repo 😘
-Label: NTNghia
-Suite: stable
-Version: 1.0
-Codename: devntnghia
-Architectures: iphoneos-arm
-Components: main
-Description: Nguồn chính thức của DevNTNghia (Người hiện đang là Admin của 2 nhóm "Thủ Thuật Cydia và Jailbreak" và "Group Cydia và Jailbreak"). Tất cả các nguồn khác có chữ "devntnghia" đều là FAKE. Xin bạn lưu ý!
-MD5Sum:
- 388d8cc2785320d52702b981bd90986d 10354 Packages
- b2691b69d90b23ef244e580075a09f95 3225 Packages.bz2
+Origin: DevNTNghia's Repo 😘Label: NTNghiaSuite: stableVersion: 1.0Codename: devntnghiaArchitectures: iphoneos-armComponents: mainDescription: Nguồn chính thức của DevNTNghia (Người hiện đang là Admin của 2 nhóm Thủ Thuật Cydia và Jailbreak và Group Cydia và Jailbreak) 👍. Tất cả các nguồn khác có chữ devntnghia đều là FAKE 🚫. Xin bạn lưu ý ❗️.MD5Sum:
+574955803f2ea91ecf1b90566ab9f32d 8658 Packages
+8671ff1cc272fd209a6d4fb4a822b4b5 2264 Packages.bz2
