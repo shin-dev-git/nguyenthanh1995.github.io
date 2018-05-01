@@ -180,7 +180,8 @@ Icon: file:///Library/Themes/Edgy.font/Icon.PNG
 
 Package: com.hatiato.edgybeta
 Version: 1.0
-Section: Font AnemoneDescription: Font Cariar Dream được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
+Section: Font Anemone
+Description: Font Cariar Dream được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
 Architecture: iphoneos-arm
