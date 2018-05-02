@@ -166,13 +166,13 @@ Author: NTNghia <hiimnghia@icloud.com>
 
 Package: com.hatiato.edgy
 Version: 1.0.2
-Section: Font Anemone
+Section: Font
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
 Architecture: iphoneos-arm
 Filename: ./debs/Edgy.deb
 Size: 15831400
-MD5sum: 27b156398bb0e058104d7bdae9c144df
+MD5sum: be7d6a9a531725fca1000b1446032595
 Description: Font Edgy được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
 Name: Edgy Font By HTT
 Author: Hà Tía Tô
@@ -180,26 +180,27 @@ Icon: file:///Library/Themes/Edgy.font/Icon.PNG
 
 Package: com.hatiato.edgybeta
 Version: 1.0
-Section: Font AnemoneDescription: Font Cariar Dream được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
+Section: Font
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
 Architecture: iphoneos-arm
 Filename: ./debs/Dream.deb
-Size: 14947274
-MD5sum: 2ebc18dabf73030f4ec43719988e1212
+Size: 14947278
+MD5sum: cfc11bb7a2344da1354d7e1210ed3c7c
+Description: Font Cariar Dream được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
 Name: Dream Font By HTT
 Author: Hà Tía Tô
 Icon: file:///Library/Themes/Dream.font/Icon.PNG
 
 Package: com.hatiato.tex
 Version: 1.0
-Section: Font Anemone
+Section: Font
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
 Architecture: iphoneos-arm
 Filename: ./debs/Tex.deb
-Size: 16307944
-MD5sum: de307c29e4f84029666e315ef9e9ab72
+Size: 16307874
+MD5sum: 801d3c280649240b9eec0078d3331ca0
 Description: Font Tex được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
 Name: Tex Font By HTT
 Author: Hà Tía Tô
