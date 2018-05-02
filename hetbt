@@ -1,0 +1,2 @@
+mv -f debs.baotri debs
+./new

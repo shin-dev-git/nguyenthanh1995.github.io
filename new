@@ -32,7 +32,7 @@ Version: 1.0
 Codename: devntnghia
 Architectures: iphoneos-arm
 Components: main
-Description: Nguồn chính thức của DevNTNghia 👍. Tất cả các nguồn khác có chữ "devntnghia" đều là FAKE 🚫. Xin bạn lưu ý ❗️.
+Description: Nguồn chính thức của DevNTNghia 👍. Tất cả các nguồn khác có chữ devntnghia đều là FAKE 🚫. Xin bạn lưu ý ❗️.
 MD5Sum:
  $md $SIZE $NAME
  $mdd $SIZEE $NAMEE" >> Release
