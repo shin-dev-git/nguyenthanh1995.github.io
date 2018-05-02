@@ -1,2 +1,0 @@
-rm -f Packages.bz2
-bzip2 -fks Packages
