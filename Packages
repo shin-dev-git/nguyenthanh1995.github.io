@@ -40,14 +40,14 @@ Name: BytaFont Tweak Mode Cho iOS 10.3.x
 Author: NTNghia <hiimnghia@icloud.com>
 
 Package: com.devntnghia.dsniffsuite
-Version: 2.5
+Version: 2.5.1
 Section: Development
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Conflicts: org.mulliner.dsniff
 Architecture: iphoneos-arm
 Filename: ./debs/DsniffSuite.deb
-Size: 2110740
-MD5sum: e572a227da6a1c060edb0af0f533f236
+Size: 2110730
+MD5sum: 7f51e9c2a4f53387ddd590730331ff62
 Description: DsniffSuite cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Name: DsniffSuite Cho netKillUI
 Author: NTNghia <hiimnghia@icloud.com>
