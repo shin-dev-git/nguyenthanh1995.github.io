@@ -39,16 +39,16 @@ Description: BytaFontTM cho iOS 10.3.x được mod lại bởi DevNTNghia. Ngư
 Name: BytaFont Tweak Mode Cho iOS 10.3.x
 Author: NTNghia <hiimnghia@icloud.com>
 
-Package: com.devntnghia.demo
+Package: com.devntnghia.demodeb
 Version: 100000
-Section: System
+Section: Demo
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Architecture: iphoneos-arm
 Filename: ./debs/demo.deb
-Size: 604
-MD5sum: a88634d54d23d09efff524ecc94f22ce
-Description: 1 File Deb demo cho Source :).
-Name: Demo Deb
+Size: 720
+MD5sum: ccd223c49a2eff3b1121a56c650f7ecf
+Description: Just A Demo Deb for Thả Thính :3 .
+Name: A Demo Deb
 Author: NTNghia <hiimnghia@icloud.com>
 
 Package: com.devntnghia.dsniffsuite
