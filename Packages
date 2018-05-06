@@ -98,12 +98,11 @@ Package: com.devntnghia.netkillui
 Version: 1.1
 Section: Utilities
 Maintainer: NTNghia <hiimnghia@icloud.com>
-Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
 Depends: com.devntnghia.arpscan, com.devntnghia.dsniffsuite, network-cmds, libpcap, gawk
 Architecture: iphoneos-arm
 Filename: ./debs/netKillUI.deb
-Size: 261730
-MD5sum: bdb0b65988ae978f4a2d6304576462ae
+Size: 261698
+MD5sum: 69d8814bdacc557b440716858b68c87f
 Description: netKillUI cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Name: netKillUI Cho iOS 10.3.x
 Author: NTNghia <hiimnghia@icloud.com>
