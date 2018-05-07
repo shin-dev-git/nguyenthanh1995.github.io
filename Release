@@ -5,7 +5,5 @@ Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Nguồn chính thức của DevNTNghia.
-MD5sum:
-85bcb88b33e24bf11225ad34fb0d9653 8477 Packages
-b7457f95a1371f94ff55c60de3cda8e9 2228 Packages.bz2
+Description: Source chính thức được tạo bởi DevNTNghia. Vui lòng không copy.
+Support: https://facebook.com/DevNTNghia
