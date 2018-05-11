@@ -149,18 +149,17 @@ Name: Semi-Restore Cho iOS 10.3.x
 Author: NTNghia <hiimnghia@icloud.com>
 
 Package: com.devntnghia.wallpaper
-Version: 1.0.2
+Version: 1.1.1
 Section: Wallpaper
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Pre-Depends: firmware (>= 10.0.1), firmware (<= 11.1.2)
 Depends: wget, unzip
-Conflicts: com.devntnghia.wp113
 Architecture: iphoneos-arm
 Filename: ./debs/wallpaper.deb
-Size: 3834
-MD5sum: 83e0e436221aade4a489ac07876b8d22
-Description: Bộ hình nền của iOS 11.3 cho các đời iOS cũ (10.x-11.1.2). Đã được DevNTNghia fix lại với size của từng dòng máy (4 Inch; 4,7 Inch; 5,5 Inch). Hiện tại mới chỉ hoạt động ở 4 Inch và 4,7 Inch, dòng 5,5 Inch sẽ được cập nhật vào bản 1.1.
-Name: Wallpaper iOS 11.3 for iPhone
+Size: 4284
+MD5sum: c12744e746b8eacf3455448767ecb6dd
+Description: Bộ hình nền của iOS 11.3.x cho các iPhone dùng iOS cũ (10.x - 11.1.2).
+Name: Wallpaper iOS 11.3
 Author: NTNghia <hiimnghia@icloud.com>
 
 Package: com.hatiato.edgy
