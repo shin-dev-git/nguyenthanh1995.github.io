@@ -1,8 +1,9 @@
-Origin: DevNTNghia
-Label: NTNghia
+Origin: @DevNTNghia@
+Label: @NTNghia@
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Source chính thức được tạo bởi DevNTNghia. Vui lòng không copy.
+Description: @Source chính thức được tạo bởi DevNTNghia. Vui lòng không copy.@
+

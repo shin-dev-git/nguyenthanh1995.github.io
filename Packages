@@ -148,6 +148,19 @@ Description: Semi-Restore cho iOS 10.3.x được làm ra bởi DevNTNghia. Ngư
 Name: Semi-Restore Cho iOS 10.3.x
 Author: NTNghia <hiimnghia@icloud.com>
 
+Package: com.devntnghia.sudoforcs
+Version: 1.0
+Section: System
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Conflicts: sudo
+Architecture: iphoneos-arm
+Filename: ./debs/sudo.deb
+Size: 179302
+MD5sum: 40d953e447669c53ce23ab0ad9a11628
+Description: Đây là phiên bản mở rộng của CydiaSlayer (v1.2). Nó đã được fix lại lỗi không nhận User là MOBILE.
+Name: Sudo For CS
+Author: NTNghia <hiimnghia@icloud.com>
+
 Package: com.devntnghia.wallpaper
 Version: 1.1.2
 Section: Wallpaper
