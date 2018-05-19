@@ -108,16 +108,16 @@ Name: netKillUI Cho iOS 10.3.x
 Author: NTNghia <hiimnghia@icloud.com>
 
 Package: com.devntnghia.s8theme
-Version: 1.0.2
+Version: 1.0.3
 Section: Themes
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Pre-Depends: firmware (<= 11.1.2)
 Depends: com.anemonetheming.anemone
 Architecture: iphoneos-arm
 Filename: ./debs/S8T.deb
-Size: 11942552
-MD5sum: bd3d31f0122fd215e18e70fa0f348c03
-Description: Theme Galaxy S8 Cho iPhone và iPad... Còn gì để nói nữa không nhỉ :v. Thôi thì chúc bạn ko dùng được Theme nha :3
+Size: 11918934
+MD5sum: 83b62abe7ae9033c31a507f2ab7219d3
+Description: Theme Galaxy S8 Cho iPhone và iPad.
 Name: Galaxy S8 Theme
 Author: NTNghia <hiimnghia@icloud.com>
 
