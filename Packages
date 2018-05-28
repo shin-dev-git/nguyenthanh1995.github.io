@@ -53,15 +53,15 @@ Name: DsniffSuite Cho netKillUI
 Author: NTNghia <hiimnghia@icloud.com>
 
 Package: com.devntnghia.eraser
-Version: 1.1.1
+Version: 1.1.2
 Section: Utilities
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./debs/Eraser.deb
-Size: 520610
-MD5sum: d105c426964fe8d65b8f7f44a97d42af
+Size: 520576
+MD5sum: 2e3c64493f99d211f5700451210c5e8b
 Description: Eraser cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
 Name: Eraser Cho iOS 10.3.x (64bit)
 Author: NTNghia <hiimnghia@icloud.com>
