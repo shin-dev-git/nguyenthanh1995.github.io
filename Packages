@@ -135,15 +135,15 @@ Name: Galaxy S8 Widgets
 Author: NTNghia <hiimnghia@icloud.com>
 
 Package: com.devntnghia.semi-restore
-Version: 1.2.3-FixBrokenStart.sh
+Version: 1.2.3.1-FixCydiaNoStash
 Section: System
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
 Depends: com.devntnghia.mterminal, coreutils, com.devntnghia.sudo
 Architecture: iphoneos-arm
 Filename: ./debs/slayer.deb
-Size: 6974
-MD5sum: ae92092975c6299c81d7d17845c0af6f
+Size: 6850
+MD5sum: 8e5264f04c36921cf94db5fc78531791
 Description: CydiaSlayer cho iOS 10.3.x được làm ra bởi DevNTNghia. Dùng để xóa Jailbreak thông qua lệnh UNIX từ Terminal.
 Name: CydiaSlayer
 Author: NTNghia <hiimnghia@icloud.com>
