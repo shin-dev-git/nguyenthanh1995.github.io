@@ -6,6 +6,6 @@ Architecture: iphoneos-arm
 Filename: ./debs/baotri
 Size: 123123
 MD5sum: 123123123123123123123123
-Description: Repo Cydia của NTNghia sẽ bảo trì từ 5h ngày 17/06/2018 đến 20h ngày 20/06/2018 vì 1 số lý do trục trặc về các gói Debian và 1 số lý do cá nhân. Mong các bạn thông cảm. Chân thành cảm ơn và xin lỗi vì sự bất tiện này.
+Description: Repo Cydia của NTNghia sẽ bảo trì từ 5h ngày 17/06/2018 đến 8h ngày 21/06/2018 vì 1 số lý do trục trặc về các gói Debian và 1 số lý do cá nhân. Mong các bạn thông cảm. Chân thành cảm ơn và xin lỗi vì sự bất tiện này.
 Name: README
 Author: NTNghia <hiimnghia@icloud.com>
