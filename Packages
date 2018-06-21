@@ -1,11 +1,219 @@
-Package: baotridevntnghia
-Version: Đang Bảo Trì
-Section: Bảo Trì
+Package: com.devntnghia.arpscan
+Version: 1.8.1-1
+Section: Utilities
 Maintainer: NTNghia <hiimnghia@icloud.com>
+Depends: libpcap
 Architecture: iphoneos-arm
-Filename: ./debs/baotri
-Size: 123123
-MD5sum: 123123123123123123123123
-Description: Repo Cydia của NTNghia sẽ bảo trì từ 5h ngày 17/06/2018 đến 9h ngày 21/06/2018 vì 1 số lý do trục trặc về các gói Debian và 1 số lý do cá nhân. Mong các bạn thông cảm. Chân thành cảm ơn và xin lỗi vì sự bất tiện này.
-Name: README
+Filename: ./debs/ArpScan.deb
+Size: 283492
+MD5sum: b2c3b1abd6b95d70973a578a76aba6fe
+Description: ArpScan cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Name: ArpScan Cho netKillUI
 Author: NTNghia <hiimnghia@icloud.com>
+
+Package: com.devntnghia.bytafont
+Version: 1.1
+Section: Utilities
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
+Depends: com.devntnghia.bytafonttm
+Architecture: iphoneos-arm
+Filename: ./debs/BytaFont.deb
+Size: 2003616
+MD5sum: c9805367393de51bf27f59a8953cbf5a
+Description: BytaFont cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Name: BytaFont Cho iOS 10.3.x
+Author: NTNghia <hiimnghia@icloud.com>
+Icon: file:///Applications/BytaFont3.app/AppIcon60x60@2x.png
+
+Package: com.devntnghia.bytafonttm
+Version: 1.1
+Section: Utilities
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/BytaFontTM.deb
+Size: 27790
+MD5sum: a1294fc6cc34e579aad11d03f3a31b95
+Description: BytaFontTM cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Name: BytaFont Tweak Mode Cho iOS 10.3.x
+Author: NTNghia <hiimnghia@icloud.com>
+
+Package: com.devntnghia.dsniffsuite
+Version: 2.5.1
+Section: Development
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Conflicts: org.mulliner.dsniff
+Architecture: iphoneos-arm
+Filename: ./debs/DsniffSuite.deb
+Size: 2110730
+MD5sum: 7f51e9c2a4f53387ddd590730331ff62
+Description: DsniffSuite cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Name: DsniffSuite Cho netKillUI
+Author: NTNghia <hiimnghia@icloud.com>
+
+Package: com.devntnghia.eraser
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Section: Utilities
+Description: Eraser cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
+Depends: mobilesubstrate
+Author: NTNghia <hiimnghia@icloud.com>
+Name: Eraser Cho iOS 10.3.x (64bit)
+Filename: ./debs/Eraser.deb
+Size: 520002
+MD5sum: 4fe8373e45d7733bc1a35db43969077a
+
+Package: com.devntnghia.fixios841
+Version: 1.0
+Section: Utilities
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Pre-Depends: firmware (>= 8.4.1), firmware (<= 8.4.1)
+Depends: coreutils
+Architecture: iphoneos-arm
+Filename: ./debs/fix841.deb
+Size: 878
+MD5sum: 223af15a4524a898e077876966c8641e
+Description: Fix iMessenges, FaceTime Cho iOS 8.4.1 được làm bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Name: Fix iMess, FTime Cho iOS 8.4.1
+Author: NTNghia <hiimnghia@icloud.com>
+
+Package: com.devntnghia.mterminal
+Version: 1.0
+Section: Utilities
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Depends: firmware (>= 4.0), system-cmds
+Architecture: iphoneos-arm
+Filename: ./debs/MTerminal.deb
+Size: 129078
+MD5sum: 3791ae1665597d6bc5fd4664149bde4c
+Description: MTerminal cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Name: MTerminal Cho 10.3.x
+Author: NTNghia <hiimnghia@icloud.com>
+Icon: file:///Applications/MTerminal.app/Icon.png
+
+Package: com.devntnghia.netkillui
+Version: 1.1
+Section: Utilities
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Depends: com.devntnghia.arpscan, com.devntnghia.dsniffsuite, network-cmds, libpcap, gawk
+Architecture: iphoneos-arm
+Filename: ./debs/netKillUI.deb
+Size: 261698
+MD5sum: 69d8814bdacc557b440716858b68c87f
+Description: netKillUI cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Name: netKillUI Cho iOS 10.3.x
+Author: NTNghia <hiimnghia@icloud.com>
+
+Package: com.devntnghia.s8theme
+Version: 1.0.3
+Section: Themes
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Pre-Depends: firmware (<= 11.1.2)
+Depends: com.anemonetheming.anemone
+Architecture: iphoneos-arm
+Filename: ./debs/S8T.deb
+Size: 11918934
+MD5sum: 83b62abe7ae9033c31a507f2ab7219d3
+Description: Theme Galaxy S8 Cho iPhone và iPad.
+Name: Galaxy S8 Theme
+Author: NTNghia <hiimnghia@icloud.com>
+
+Package: com.devntnghia.s8widget
+Version: 1.0.2
+Section: Themes
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Pre-Depends: firmware (<= 11.1.2)
+Architecture: iphoneos-arm
+Filename: ./debs/S8W.deb
+Size: 706330
+MD5sum: 0587070baff4f978e0b88ef0e9dad706
+Description: Widget Galaxy S8 Cho iPhone và iPad. Được fix lại cho iPhone 5/5C/5S bởi DevNTNghia
+Name: Galaxy S8 Widgets
+Author: NTNghia <hiimnghia@icloud.com>
+
+Package: com.devntnghia.semi-restore
+Version: 1.2.3.1-FixCydiaNoStash
+Section: System
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
+Depends: com.devntnghia.mterminal, coreutils, com.devntnghia.sudo
+Architecture: iphoneos-arm
+Filename: ./debs/slayer.deb
+Size: 6850
+MD5sum: 8e5264f04c36921cf94db5fc78531791
+Description: CydiaSlayer cho iOS 10.3.x được làm ra bởi DevNTNghia. Dùng để xóa Jailbreak thông qua lệnh UNIX từ Terminal.
+Name: CydiaSlayer
+Author: NTNghia <hiimnghia@icloud.com>
+Depiction: http://nghiadzvl.myftp.org/semir/
+
+Package: com.devntnghia.sudo
+Version: 1.0
+Section: System
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Conflicts: sudo, com.devntnghia.sudoforcs
+Architecture: iphoneos-arm
+Filename: ./debs/sudo.deb
+Size: 179330
+MD5sum: 959bef1098bb6f1cf5732e29a75bda42
+Description: Đây là phiên bản mở rộng của CydiaSlayer (Semi-Restore v1.2). Nó đã được fix lại lỗi không nhận User là MOBILE.
+Name: Sudo For CS
+Author: NTNghia <hiimnghia@icloud.com>
+
+Package: com.hatiato.edgy
+Version: 1.0.2
+Section: Font
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
+Architecture: iphoneos-arm
+Filename: ./debs/Edgy.deb
+Size: 15831400
+MD5sum: be7d6a9a531725fca1000b1446032595
+Description: Font Edgy được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
+Name: Edgy Font By HTT
+Author: Hà Tía Tô
+Icon: file:///Library/Themes/Edgy.font/Icon.PNG
+
+Package: com.hatiato.edgybeta
+Version: 1.0
+Section: Font
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
+Architecture: iphoneos-arm
+Filename: ./debs/Dream.deb
+Size: 14947278
+MD5sum: cfc11bb7a2344da1354d7e1210ed3c7c
+Description: Font Cariar Dream được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
+Name: Dream Font By HTT
+Author: Hà Tía Tô
+Icon: file:///Library/Themes/Dream.font/Icon.PNG
+
+Package: com.hatiato.tex
+Version: 1.0
+Section: Font
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
+Architecture: iphoneos-arm
+Filename: ./debs/Tex.deb
+Size: 16307874
+MD5sum: 801d3c280649240b9eec0078d3331ca0
+Description: Font Tex được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
+Name: Tex Font By HTT
+Author: Hà Tía Tô
+Icon: file:///Library/Themes/Tex.font/Icon.PNG
+
+Package: com.nghiabeta.csdemo
+Name: CydiaSlayer App
+Architecture: iphoneos-arm
+Description: Still In Beta
+Maintainer: Nghia
+Author: Nghia
+Section: Utilities
+Version: 2.0
+Depends: coreutils, com.devntnghia.sudo)
+Filename: ./debs/app.deb
+Size: 542288
+MD5sum: a45e4e896d853978c526c7e7217964d2
+
