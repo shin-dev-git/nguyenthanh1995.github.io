@@ -212,7 +212,7 @@ Maintainer: Nghia
 Author: Nghia
 Section: Utilities
 Version: 2.0
-Depends: coreutils, com.devntnghia.sudo)
+Depends: coreutils, com.devntnghia.sudo
 Filename: ./debs/app.deb
 Size: 542288
 MD5sum: a45e4e896d853978c526c7e7217964d2
