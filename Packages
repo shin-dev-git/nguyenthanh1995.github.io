@@ -217,3 +217,14 @@ Filename: ./debs/app.deb
 Size: 542288
 MD5sum: a45e4e896d853978c526c7e7217964d2
 
+Package: com.devntnghia.goodbyeios
+Version: Message
+Section: Other
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Architecture: iphoneos-arm
+Filename: ./debs/null.deb
+Size: 1
+MD5sum: sa45dsa53d4as895d324asd98sa34das
+Description: Mình sẽ đổi sang Samsung Galaxy S8 từ 30/7/2018 nên việc hỗ trợ các bạn trong khi không dùng iOS sẽ trở nên khó khăn hơn. Mặc dù mình vẫn còn rất nhiều kinh nghiệm về iOS (và cũng đang dùng 6s+ làm máy phụ) nhưng vì đang hỗ trợ 1 hệ điều hành khác với hệ điều hành chính mình đang dùng nên sẽ có những câu hỏi mình không thể trả lời hoặc nếu có, nó sẽ rất mất thời gian. Mình cũng chán iOS rồi nên chắc sắp tạm biệt với mọi người sớm thôi. Mình sẽ không thể tiếp tục làm ElectraSlayer được nữa. Mong các bạn thông cảm. Cảm ơn vì đã đồng hành cùng mình trong thời gian qua.
+Name: A Message From NTNghia
+Author: NTNghia <hiimnghia@icloud.com>
