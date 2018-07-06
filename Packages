@@ -204,19 +204,6 @@ Name: Tex Font By HTT
 Author: Hà Tía Tô
 Icon: file:///Library/Themes/Tex.font/Icon.PNG
 
-Package: com.nghiabeta.csdemo
-Name: CydiaSlayer App
-Architecture: iphoneos-arm
-Description: Still In Beta
-Maintainer: Nghia
-Author: Nghia
-Section: Utilities
-Version: 2.0
-Depends: coreutils, com.devntnghia.sudo
-Filename: ./debs/app.deb
-Size: 542288
-MD5sum: a45e4e896d853978c526c7e7217964d2
-
 Package: com.devntnghia.goodbyeios
 Version: Message
 Section: Other
