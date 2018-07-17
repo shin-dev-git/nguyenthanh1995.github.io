@@ -111,7 +111,6 @@ Package: com.devntnghia.s8theme
 Version: 1.0.3
 Section: Themes
 Maintainer: NTNghia <hiimnghia@icloud.com>
-Pre-Depends: firmware (<= 11.1.2)
 Depends: com.anemonetheming.anemone
 Architecture: iphoneos-arm
 Filename: ./debs/S8T.deb
@@ -125,7 +124,6 @@ Package: com.devntnghia.s8widget
 Version: 1.0.2
 Section: Themes
 Maintainer: NTNghia <hiimnghia@icloud.com>
-Pre-Depends: firmware (<= 11.1.2)
 Architecture: iphoneos-arm
 Filename: ./debs/S8W.deb
 Size: 255526
