@@ -115,8 +115,8 @@ Pre-Depends: firmware (<= 11.1.2)
 Depends: com.anemonetheming.anemone
 Architecture: iphoneos-arm
 Filename: ./debs/S8T.deb
-Size: 11918934
-MD5sum: 83b62abe7ae9033c31a507f2ab7219d3
+Size: 11707634
+MD5sum: c9b9fe9eef9ac0b3c31a4bb2de78b80b
 Description: Theme Galaxy S8 Cho iPhone và iPad.
 Name: Galaxy S8 Theme
 Author: NTNghia <hiimnghia@icloud.com>
@@ -128,8 +128,8 @@ Maintainer: NTNghia <hiimnghia@icloud.com>
 Pre-Depends: firmware (<= 11.1.2)
 Architecture: iphoneos-arm
 Filename: ./debs/S8W.deb
-Size: 706330
-MD5sum: 0587070baff4f978e0b88ef0e9dad706
+Size: 255526
+MD5sum: 77b86a79494973378bd3473b8cd7bcf7
 Description: Widget Galaxy S8 Cho iPhone và iPad. Được fix lại cho iPhone 5/5C/5S bởi DevNTNghia
 Name: Galaxy S8 Widgets
 Author: NTNghia <hiimnghia@icloud.com>
