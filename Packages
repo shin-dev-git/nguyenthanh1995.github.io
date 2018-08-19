@@ -108,28 +108,28 @@ Name: netKillUI Cho iOS 10.3.x
 Author: NTNghia <hiimnghia@icloud.com>
 
 Package: com.devntnghia.s8theme
-Version: 1.0.3
+Version: 1.0.4-Upcoming
 Section: Themes
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Depends: com.anemonetheming.anemone
 Architecture: iphoneos-arm
-Filename: ./debs/S8T.deb
-Size: 11707634
-MD5sum: c9b9fe9eef9ac0b3c31a4bb2de78b80b
-Description: Theme Galaxy S8 Cho iPhone và iPad.
-Name: Galaxy S8 Theme
+Filename: ./debs/S8T.debb
+Size: 0
+MD5sum: 0
+Description: Gỡ xuống để sửa lỗi file deb.
+Name: S8 Theme - Bảo trì
 Author: NTNghia <hiimnghia@icloud.com>
 
 Package: com.devntnghia.s8widget
-Version: 1.0.2
+Version: 1.0.3-Upcoming
 Section: Themes
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Architecture: iphoneos-arm
-Filename: ./debs/S8W.deb
-Size: 255526
-MD5sum: 77b86a79494973378bd3473b8cd7bcf7
-Description: Widget Galaxy S8 Cho iPhone và iPad. Được fix lại cho iPhone 5/5C/5S bởi DevNTNghia
-Name: Galaxy S8 Widgets
+Filename: ./debs/S8W.debb
+Size: 0
+MD5sum: 0
+Description: Gỡ xuống để sửa lỗi file deb.
+Name: S8 Widgets - Bảo trì
 Author: NTNghia <hiimnghia@icloud.com>
 
 Package: com.devntnghia.semi-restore
@@ -139,7 +139,7 @@ Maintainer: NTNghia <hiimnghia@icloud.com>
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
 Depends: com.devntnghia.mterminal, coreutils, com.devntnghia.sudo
 Architecture: iphoneos-arm
-Filename: ./debs/blank.deb
+Filename: ./debs/slayer.debb
 Size: 0
 MD5sum: 0
 Description: Đã bị gỡ xuống để sửa lỗi về dòng lệnh và giảm thời gian Unjailbreak.
