@@ -1,51 +1,54 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+@font-face {
+	font-family: 'Samsung Sans Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Samsung Sans Regular'), url('./somethings/SamsungSans-Regular.woff') format('woff');
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+}
+
+.a {
+    text-align: center;
+    font-family: Samsung Sans Regular;
+}
+
+.b {
+    text-align: right;
+    font-family: Samsung Sans Regular;
+}
+.closer {
+	line-height: 0px;
+	text-align: center;
+	font-family: Samsung Sans Regular;
+}
+.arrowhead {
+	font-family: Samsung Sans Regular;
+	font-weight: normal;
+	line-height: 3px;
+	text-align: center;
+}
+</style>
 		<title>DevNTNghia's Repo</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-loading">
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<h1>DevNTNghia</h1>
-							<p>Nguồn Cydia chính thức</p>
-						</header>
-
-						<footer>
-							<ul class="icons">
-								<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://devntnghia.github.io/" class="fa-plus">Thêm Nguồn</a></li>
-							</ul>
-						</footer>
-					</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; NTNghia</li>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-
+	<body>
+		<h1 class="a">This is a </h1>
+		<h1 class="closer">Cydia Repository</h1>
+		<h3 class="b">Made by NTNghia</h3>
+		<h2 class="a">CLICK KANNA-CHAN TO ADD THE REPO TO CYDIA</h2>
+		<h1 class="arrowhead">|</h1>
+		<h1 class="arrowhead">|</h1>
+		<h1 class="arrowhead">V</h1>
+		<a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://devntnghia.github.io/"><img src="./somethings/kanna.gif" class="center"></a>
 	</body>
 </html>
