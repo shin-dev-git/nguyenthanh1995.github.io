@@ -143,8 +143,8 @@ Description: CydiaSlayer cho iOS 10.3.x được làm ra bởi DevNTNghia. Dùng
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
 Depends: com.devntnghia.mterminal, coreutils, com.devntnghia.sudo
 Filename: ./debs/slayer.deb
-Size: 6850
-MD5sum: 8e5264f04c36921cf94db5fc78531791
+Size: 6824
+MD5sum: a4477eca1bd5d5c2e4aa6470b178e20b
 
 Package: com.devntnghia.sudo
 Version: 1.0
