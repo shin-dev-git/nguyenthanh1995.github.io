@@ -201,14 +201,14 @@ Name: Tex Font By HTT
 Author: Hà Tía Tô
 Icon: file:///Library/Themes/Tex.font/Icon.PNG
 
-Package: com.devntnghia.goodbyeios
-Version: Message
-Section: Other
+Package: com.devntnghia.repodev
+Version: Coming Soon
+Section: Development
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Architecture: iphoneos-arm
 Filename: ./debs/null.deb
-Size: 1
-MD5sum: sa45dsa53d4as895d324asd98sa34das
-Description: Mình sẽ đổi sang Samsung Galaxy S8 từ 30/6/2018 nên việc hỗ trợ các bạn trong khi không dùng iOS sẽ trở nên khó khăn hơn. Mặc dù mình vẫn còn rất nhiều kinh nghiệm về iOS (và cũng đang dùng 6s+ làm máy phụ) nhưng vì đang hỗ trợ 1 hệ điều hành khác với hệ điều hành chính mình đang dùng nên sẽ có những câu hỏi mình không thể trả lời hoặc nếu có, nó sẽ rất mất thời gian. Mình cũng chán iOS rồi nên chắc sắp tạm biệt với mọi người sớm thôi. Mình sẽ không thể tiếp tục làm ElectraSlayer được nữa. Mong các bạn thông cảm. Cảm ơn vì đã đồng hành cùng mình trong thời gian qua.
-Name: A Message From NTNghia
+Size: 0
+MD5sum: 0
+Description: Sắp ra mắt.
+Name: RepoDev
 Author: NTNghia <hiimnghia@icloud.com>
