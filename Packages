@@ -133,18 +133,18 @@ Name: S8 Widgets
 Author: NTNghia <hiimnghia@icloud.com>
 
 Package: com.devntnghia.semi-restore
-Name: CydiaSlayer
-Version: 1.2.3.2-RemoveDepiction
+Name: CydiaSlayer - Bảo trì
+Version: 1.2.4 - Upcoming
 Architecture: iphoneos-arm
 Section: System
 Author: NTNghia <hiimnghia@icloud.com>
 Maintainer: NTNghia <hiimnghia@icloud.com>
-Description: CydiaSlayer cho iOS 10.3.x được làm ra bởi DevNTNghia. Dùng để xóa Jailbreak thông qua lệnh UNIX từ Terminal.
+Description: CydiaSlayer cho iOS 10.3.x sẽ được bảo trì để nâng cấp hệ thống lệnh và upload lại vào ngày 5/9. Mong bạn thông cảm.
 Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
-Depends: com.devntnghia.mterminal, coreutils, com.devntnghia.sudo
-Filename: ./debs/slayer.deb
-Size: 6824
-MD5sum: a4477eca1bd5d5c2e4aa6470b178e20b
+Depends: Không.Thể.Cài
+Filename: ./debs/0.deb
+Size: 0
+MD5sum: 0
 
 Package: com.devntnghia.sudo
 Version: 1.0
