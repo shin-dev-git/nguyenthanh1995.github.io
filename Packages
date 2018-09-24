@@ -206,11 +206,12 @@ Name: SBBooster
 Author: NTNghia & FrankyNouva
 Description: Tối ưu SpringBoard của bạn!
 Depiction: https://ispeas.blogspot.com/2018/09/sbboosterxi-speed-up-your-springboard.html
+Pre-Depends: firmware (>= 9.0), firmware (<= 10.3.3)
 Depends: mobilesubstrate, com.devntnghia.sudo
 Maintainer: NTNghia & FrankyNouva
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0
+Version: 1.0.1
 Filename: ./debs/sbb.deb
-MD5sum: 8a0d737dac875c98c2e6dbbe8596616f
-Size: 53900
+MD5sum: 41c45e88c492f3be854d5d0848a8f136
+Size: 53922
