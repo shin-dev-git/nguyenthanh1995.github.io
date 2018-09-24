@@ -147,14 +147,14 @@ Size: 7334
 MD5sum: c6aed3bd8e18c436e5f50a2bd948f023
 
 Package: com.devntnghia.sudo
-Version: 1.0.1
+Version: 1.0.2
 Section: System
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Conflicts: sudo, com.devntnghia.sudoforcs
 Architecture: iphoneos-arm
 Filename: ./debs/sudo.deb
-Size: 188102
-MD5sum: 92046dcede13fb34c1641d13be571d9e
+Size: 179190
+MD5sum: cf70b0e197b309ae7160a10052798eda
 Description: sudo = Super User Do
 Name: Sudo For CS
 Author: NTNghia <hiimnghia@icloud.com>
@@ -211,7 +211,7 @@ Depends: mobilesubstrate, com.devntnghia.sudo
 Maintainer: NTNghia & FrankyNouva
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.1
+Version: 1.0.2
 Filename: ./debs/sbb.deb
-MD5sum: 41c45e88c492f3be854d5d0848a8f136
-Size: 53922
+MD5sum: bd511075cb4424b2b4528b6c02352bd8
+Size: 62256
