@@ -211,7 +211,7 @@ Depends: mobilesubstrate, com.devntnghia.sudo
 Maintainer: NTNghia & FrankyNouva
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.2
+Version: 1.0.3
 Filename: ./debs/sbb.deb
-MD5sum: bd511075cb4424b2b4528b6c02352bd8
-Size: 62256
+MD5sum: 817728a62e0fabf8e064f1bd31b3b080
+Size: 56146
