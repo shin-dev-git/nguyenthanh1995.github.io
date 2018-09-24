@@ -147,15 +147,15 @@ Size: 7334
 MD5sum: c6aed3bd8e18c436e5f50a2bd948f023
 
 Package: com.devntnghia.sudo
-Version: 1.0
+Version: 1.0.1
 Section: System
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Conflicts: sudo, com.devntnghia.sudoforcs
 Architecture: iphoneos-arm
 Filename: ./debs/sudo.deb
 Size: 179330
-MD5sum: 959bef1098bb6f1cf5732e29a75bda42
-Description: Đây là phiên bản mở rộng của CydiaSlayer (Semi-Restore v1.2). Nó đã được fix lại lỗi không nhận User là MOBILE.
+MD5sum: 92046dcede13fb34c1641d13be571d9e
+Description: sudo = Super User Do
 Name: Sudo For CS
 Author: NTNghia <hiimnghia@icloud.com>
 
@@ -200,3 +200,17 @@ Description: Font Tex được Mod lại bởi Hà Tía Tô bên nhóm "Thủ th
 Name: Tex Font By HTT
 Author: Hà Tía Tô
 Icon: file:///Library/Themes/Tex.font/Icon.PNG
+
+Package: com.frankynghia.sbbooster
+Name: SBBooster
+Author: NTNghia & FrankyNouva
+Description: Tối ưu SpringBoard của bạn!
+Depiction: https://ispeas.blogspot.com/2018/09/sbboosterxi-speed-up-your-springboard.html
+Depends: mobilesubstrate
+Maintainer: NTNghia & FrankyNouva
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0
+Filename: ./debs/sbb.deb
+Size: 53900
+MD5sum: 8a0d737dac875c98c2e6dbbe8596616f
