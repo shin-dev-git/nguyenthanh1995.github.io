@@ -214,3 +214,17 @@ Version: 1.0.6
 Filename: ./debs/sbb.deb
 MD5sum: f28e89d0c04dc1554aa3bdae3ed087dc
 Size: 55126
+
+Package: com.frankynghia.sbboosterxi
+Name: SBBoosterXI
+Author: NTNghia & FrankyNouva
+Description: Tối ưu SpringBoard của bạn!
+Depiction: https://ispeas.blogspot.com/2018/09/sbboosterxi-speed-up-your-springboard.html
+Depends: mobilesubstrate, com.devntnghia.sudo
+Maintainer: NTNghia & FrankyNouva
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.3
+Filename: ./debs/sbbxi.deb
+MD5sum: c420c3fa857227e3a41222c2f68a03c7
+Size: 57432
