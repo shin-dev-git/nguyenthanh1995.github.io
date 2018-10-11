@@ -221,10 +221,11 @@ Author: NTNghia & FrankyNouva
 Description: Tối ưu SpringBoard của bạn!
 Depiction: https://ispeas.blogspot.com/2018/09/sbboosterxi-speed-up-your-springboard.html
 Depends: mobilesubstrate, com.devntnghia.sudo
+Pre-Depends: firmware (>= 11.0)
 Maintainer: NTNghia & FrankyNouva
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.3
+Version: 1.0.4
 Filename: ./debs/sbbxi.deb
-MD5sum: c420c3fa857227e3a41222c2f68a03c7
-Size: 57432
+MD5sum: d6df0a0512eed5fc15e60cd789e1daf2
+Size: 61872
