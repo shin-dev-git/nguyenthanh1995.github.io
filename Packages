@@ -225,7 +225,7 @@ Pre-Depends: firmware (>= 11.0)
 Maintainer: NTNghia & FrankyNouva
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.4
+Version: 1.0.5
 Filename: ./debs/sbbxi.deb
-MD5sum: d6df0a0512eed5fc15e60cd789e1daf2
-Size: 61872
+MD5sum: c8b805669af89a2064f807a28ae88d25
+Size: 61586
