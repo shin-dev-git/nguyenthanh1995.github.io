@@ -233,13 +233,14 @@ Size: 41034
 
 Package: com.devntnghia.sudoxi
 Name: SudoXI
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: NTNghia
 Depends: cy+cpu.arm64
+Conflict: sudo, com.devntnghia.sudo
 Section: Administration
 Priority: standard
 Description: temporarily assume root privileges
 Filename: ./debs/sudoxi.deb
-MD5sum: d4d0aca907e75632322df764fa84f7ff
-Size: 205268
+MD5sum: 80276f54848e8a07703c243362c25ddc
+Size: 205470
