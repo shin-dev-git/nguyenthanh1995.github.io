@@ -221,12 +221,25 @@ Name: SBBoosterXI
 Author: NTNghia & FrankyNouva
 Description: Tối ưu SpringBoard của bạn!
 Depiction: https://ispeas.blogspot.com/2018/09/sbboosterxi-speed-up-your-springboard.html
-Depends: mobilesubstrate, com.devntnghia.sudo
-Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, com.devntnghia.sudoxi
+Pre-Depends: firmware (>= 11.2)
 Maintainer: NTNghia & FrankyNouva
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.1
+Version: 1.1.1
 Filename: ./debs/sbbxi.deb
-MD5sum: 72aca1dd0bd1a521568f294fddcdde80
-Size: 61974
+MD5sum: e1d6cdefffa800fc314ecf4a6c4f0049
+Size: 41034
+
+Package: com.devntnghia.sudoxi
+Name: SudoXI
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: NTNghia
+Depends: cy+cpu.arm64
+Section: Administration
+Priority: standard
+Description: temporarily assume root privileges
+Filename: ./debs/sudoxi.deb
+MD5sum: d4d0aca907e75632322df764fa84f7ff
+Size: 205268
