@@ -244,3 +244,17 @@ Description: temporarily assume root privileges
 Filename: ./debs/sudoxi.deb
 MD5sum: 80276f54848e8a07703c243362c25ddc
 Size: 205470
+
+Package: com.devntnghia.cydiaslayer.app
+Name: CydiaSlayer (App)
+Version: 0.1-EarlyAccessForTester
+Architecture: iphoneos-arm
+Section: System
+Author: NTNghia <hiimnghia@icloud.com>
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Description: CydiaSlayer dạng app cho iOS.
+Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
+Depends: com.devntnghia.sudo
+Filename: ./debs/CSApp.deb
+MD5sum: fc6dad0364c7052445dd542b7063a763
+Size: 5265884
