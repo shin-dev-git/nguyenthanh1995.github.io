@@ -246,15 +246,15 @@ MD5sum: 80276f54848e8a07703c243362c25ddc
 Size: 205470
 
 Package: com.devntnghia.cydiaslayer.app
-Name: CydiaSlayer (App)
-Version: 0.2-EarlyAccessForTester
+Name: CydiaSlayer App
+Version: 0.3-EarlyAccessForTester
 Architecture: iphoneos-arm
-Section: System
+Section: Tweaks
 Author: NTNghia <hiimnghia@icloud.com>
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Description: CydiaSlayer dạng app cho iOS.
 Pre-Depends: firmware (<= 10.3.3)
 Depends: com.devntnghia.sudo
 Filename: ./debs/CSApp.deb
-MD5sum: 73e190a60131261f7fd24210c5932519
+MD5sum: 961b6e77add4533b179c56410bce0961
 Size: 5277298
