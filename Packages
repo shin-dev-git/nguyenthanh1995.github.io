@@ -1,4 +1,4 @@
-Package: com.devntnghia.arpscan
+﻿Package: com.devntnghia.arpscan
 Version: 1.8.1-1
 Section: Utilities
 Maintainer: NTNghia <hiimnghia@icloud.com>
@@ -253,8 +253,8 @@ Section: System
 Author: NTNghia <hiimnghia@icloud.com>
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Description: CydiaSlayer dạng app cho iOS.
-Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
+Pre-Depends: firmware (<= 10.3.3)
 Depends: com.devntnghia.sudo
 Filename: ./debs/CSApp.deb
-MD5sum: fc6dad0364c7052445dd542b7063a763
-Size: 5265884
+MD5sum: b50d6355d57f9f6df061db9337510830
+Size: 5277242
