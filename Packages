@@ -1,4 +1,4 @@
-﻿Package: com.devntnghia.arpscan
+Package: com.devntnghia.arpscan
 Version: 1.8.1-1
 Section: Utilities
 Maintainer: NTNghia <hiimnghia@icloud.com>
@@ -244,3 +244,17 @@ Description: temporarily assume root privileges
 Filename: ./debs/sudoxi.deb
 MD5sum: 80276f54848e8a07703c243362c25ddc
 Size: 205470
+
+Package: com.devntnghia.cydiaslayer.app
+Name: CydiaSlayer App
+Version: 0.5-EarlyAccessForTester
+Architecture: iphoneos-arm
+Section: Tweaks
+Author: NTNghia <hiimnghia@icloud.com>
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Description: Application version of CydiaSlayer.
+Pre-Depends: firmware (<= 10.3.3)
+Depends: com.devntnghia.sudo
+Filename: ./debs/CSApp.deb
+MD5sum: 5a5b18c0dc291731b5e6aaea077419a9
+Size: 5277314
