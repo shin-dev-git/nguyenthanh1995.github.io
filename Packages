@@ -134,17 +134,17 @@ Author: NTNghia <hiimnghia@icloud.com>
 
 Package: com.devntnghia.semi-restore
 Name: CydiaSlayer
-Version: 1.2.4
+Version: 1.3
 Architecture: iphoneos-arm
 Section: System
 Author: NTNghia <hiimnghia@icloud.com>
 Maintainer: NTNghia <hiimnghia@icloud.com>
 Description: CydiaSlayer cho iOS 10.3.x được làm ra bởi DevNTNghia. Dùng để xóa Jailbreak thông qua lệnh UNIX từ Terminal.
-Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
+Pre-Depends: firmware (<= 10.3.3)
 Depends: com.devntnghia.mterminal, coreutils, com.devntnghia.sudo
 Filename: ./debs/slayer.deb
-Size: 7334
-MD5sum: c6aed3bd8e18c436e5f50a2bd948f023
+Size: 53032
+MD5sum: 8fbbc23b581e66b52cf95b2ea509a1a5
 
 Package: com.devntnghia.sudo
 Version: 1.0.2

@@ -1,0 +1,4 @@
+find . -name '.DS_Store' -type f -delete
+git add .
+git commit -m "Upload CSApp.deb"
+git push
