@@ -247,7 +247,7 @@ Size: 205470
 
 Package: com.devntnghia.cydiaslayer.app
 Name: CydiaSlayer App
-Version: 0.7-EarlyAccessForTester
+Version: 1.0
 Architecture: iphoneos-arm
 Section: Tweaks
 Author: NTNghia <hiimnghia@icloud.com>
@@ -256,5 +256,5 @@ Description: Application version of CydiaSlayer.
 Pre-Depends: firmware (<= 10.3.3)
 Depends: com.devntnghia.sudo
 Filename: ./debs/CSApp.deb
-MD5sum: 4fe3730efc65cc0d8c176a9ca44fbf65
-Size: 5287014
+MD5sum: bc95d9b26dafd0a43f3b1f49d65392bb
+Size: 5284392
