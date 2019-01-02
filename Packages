@@ -211,10 +211,10 @@ Pre-Depends: firmware (>= 9.0), firmware (<= 10.3.3)
 Maintainer: NTNghia
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.2
+Version: 1.2.1
 Filename: ./debs/sbb.deb
-MD5sum: 940e7011c9aee5b902e9af18790fb5f3
-Size: 55636
+MD5sum: 480e5d0e966989a3b5b0503f64d56c8b
+Size: 55330
 
 Package: com.frankynghia.sbboosterxi
 Name: SBBoosterXI
@@ -223,13 +223,13 @@ Description: Tối ưu SpringBoard của bạn!
 Depiction: https://ispeas.blogspot.com/2018/09/sbboosterxi-speed-up-your-springboard.html
 Depends: mobilesubstrate, com.devntnghia.sudoxi
 Pre-Depends: firmware (>= 11.0)
-Maintainer: NTNghia
+Maintainer: NTNghia & FrankyNouva
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.2
+Version: 1.2.1
 Filename: ./debs/sbbxi.deb
-MD5sum: 323c4b7dd7ed60849e3d705b16cefe63
-Size: 63404
+MD5sum: 110cf1fd39a5afd9c45d87fcd5fbc738
+Size: 63182
 
 Package: com.devntnghia.sudoxi
 Name: SudoXI
