@@ -213,7 +213,7 @@ Architecture: iphoneos-arm
 Section: Tweaks
 Version: 1.2.1
 Filename: ./debs/sbb.deb
-MD5sum: 480e5d0e966989a3b5b0503f64d56c8b
+MD5sum: 30e436d992a6ce44ff2c3684fea8f9e3
 Size: 55330
 
 Package: com.frankynghia.sbboosterxi
