@@ -202,13 +202,13 @@ Author: Hà Tía Tô
 Icon: file:///Library/Themes/Tex.font/Icon.PNG
 
 Package: com.frankynghia.sbbooster
-Name: SBBooster Đã CŨ. Hãy chuyển sang SBBoosterXS.
+Name: SBBooster IS OLD.
 Author: NTNghia
-Description: Hãy chuyển sang SBBoosterXS để tiếp tục sử dụng.
+Description: PLEASE SWITCH TO SBBoosterXS TO CONTINUE USING.
 Maintainer: NTNghia
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: ĐÃ CŨ
+Version: OLD
 Filename: ./debs/0.deb
 MD5sum: 0
 Size: 0
