@@ -202,14 +202,14 @@ Author: Hà Tía Tô
 Icon: file:///Library/Themes/Tex.font/Icon.PNG
 
 Package: com.frankynghia.sbbooster
-Name: SBBooster IS OLD.
+Name: Chuyển sang SBBoosterXS.
 Author: NTNghia
-Description: PLEASE SWITCH TO SBBoosterXS TO CONTINUE USING.
-Maintainer: NTNghia
+Description: Chuyển sang SBBoosterXS.
+Maintainer: Chuyển sang SBBoosterXS
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: OLD
-Filename: ./debs/0.deb
+Version: Chuyển sang SBBoosterXS
+Depends: Chuyển sang SBBoosterXS
 MD5sum: 0
 Size: 0
 
@@ -238,10 +238,10 @@ Conflicts: com.frankynghia.sbbooster
 Maintainer: NTNghia
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.3.2
+Version: 1.3.3
 Filename: ./debs/sbbxs.deb
-MD5sum: 21c43d77330d4c8dabdcaf425a076309
-Size: 60296
+MD5sum: 11bbff20280bee98b1673163eb295cf3
+Size: 233704
 
 Package: com.devntnghia.sudoxi
 Name: SudoXI
