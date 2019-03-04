@@ -209,7 +209,7 @@ Maintainer: Chuyển sang SBBoosterXS
 Architecture: iphoneos-arm
 Section: Tweaks
 Version: Chuyển sang SBBoosterXS
-Depends: Chuyển sang SBBoosterXS
+Depends: Chuyển.sang.SBBoosterXS
 MD5sum: 0
 Size: 0
 
