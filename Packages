@@ -210,6 +210,7 @@ Architecture: iphoneos-arm
 Section: Tweaks
 Version: Chuyển sang SBBoosterXS
 Depends: Chuyển.sang.SBBoosterXS
+Filename: ./debs/0.deb
 MD5sum: 0
 Size: 0
 
