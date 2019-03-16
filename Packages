@@ -239,10 +239,10 @@ Conflicts: com.frankynghia.sbbooster
 Maintainer: NTNghia
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.3.3
+Version: 1.3.4
 Filename: ./debs/sbbxs.deb
-MD5sum: 11bbff20280bee98b1673163eb295cf3
-Size: 233704
+MD5sum: 00f6ae2b0e137eea7a246ec2e0b23126
+Size: 233648
 
 Package: com.devntnghia.sudoxi
 Name: SudoXI
