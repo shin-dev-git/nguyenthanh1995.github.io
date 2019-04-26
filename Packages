@@ -280,7 +280,7 @@ Description: Block Read In Facebook Messenger App.
 Maintainer: DevNTNghia
 Author: DevNTNghia
 Section: Tweaks
-Version: 1.0
+Version: 1.0.1
 Filename: ./debs/BlockRead.deb
-MD5sum: e0294630a491b35d0517da3aa8f35187
-Size: 13296
+MD5sum: b92efe73c23124f42f716d44d5962e03
+Size: 13266
