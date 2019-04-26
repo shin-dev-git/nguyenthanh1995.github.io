@@ -271,3 +271,16 @@ Depends: com.devntnghia.sudo
 Filename: ./debs/CSApp.deb
 MD5sum: bc95d9b26dafd0a43f3b1f49d65392bb
 Size: 5284392
+
+Package: com.devntnghia.blockread
+Name: BlockReadMessenger
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Block Read In Facebook Messenger App.
+Maintainer: DevNTNghia
+Author: DevNTNghia
+Section: Tweaks
+Version: 1.0
+Filename: ./debs/BlockRead.deb
+MD5sum: e0294630a491b35d0517da3aa8f35187
+Size: 13296
