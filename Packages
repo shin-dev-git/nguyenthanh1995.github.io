@@ -235,8 +235,8 @@ Package: com.frankynghia.sbboosterxi
 Name: SBBoosterXS
 Author: FrankyNouva, NTNghia
 Description: Optimize Your SpringBoard! Added Support For iOS 12.
-Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64
-Pre-Depends: firmware(>= 9.0)
+Depends: mobilesubstrate, preferenceloader
+Pre-Depends: firmware(>= 9.0), cy+cpu.arm64
 Conflicts: com.frankynghia.sbbooster, com.frankynghia.sbbxslite
 Maintainer: NTNghia
 Architecture: iphoneos-arm
