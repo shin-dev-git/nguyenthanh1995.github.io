@@ -317,3 +317,15 @@ Version: 1.0.1
 Filename: ./debs/BlockRead.deb
 MD5sum: b92efe73c23124f42f716d44d5962e03
 Size: 13266
+
+Package: com.devntnghia.oneui
+Version: 1.0
+Section: Themes
+Maintainer: DevNTNghia <hiimnghia@icloud.com>
+Architecture: iphoneos-arm
+Description: OneUI Theme by DevNTNghia. Based on Samsung OneUI in Samsung Galaxy S8.
+Name: OneUI Theme
+Author: DevNTNghia <hiimnghia@icloud.com>
+Filename: ./debs/oneui.deb
+MD5sum: a3c70daa36367b21c3cab9ec9a9df2bf
+Size: 12046026 
