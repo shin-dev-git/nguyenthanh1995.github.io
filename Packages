@@ -319,13 +319,13 @@ MD5sum: b92efe73c23124f42f716d44d5962e03
 Size: 13266
 
 Package: com.devntnghia.oneui
-Version: 1.0
+Version: 1.0.1
 Section: Themes
 Maintainer: DevNTNghia <hiimnghia@icloud.com>
 Architecture: iphoneos-arm
-Description: OneUI Theme by DevNTNghia. Based on Samsung OneUI in Samsung Galaxy S8.
+Description: OneUI Theme by DevNTNghia. Based on Samsung OneUI on Samsung Galaxy S8.
 Name: OneUI Theme
 Author: DevNTNghia <hiimnghia@icloud.com>
 Filename: ./debs/oneui.deb
-MD5sum: a3c70daa36367b21c3cab9ec9a9df2bf
+MD5sum: b22ca25a0ca2cdfe09e869214124eb0e
 Size: 12046026 
