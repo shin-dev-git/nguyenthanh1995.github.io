@@ -329,3 +329,16 @@ Author: DevNTNghia <hiimnghia@icloud.com>
 Filename: ./debs/oneui.deb
 MD5sum: b22ca25a0ca2cdfe09e869214124eb0e
 Size: 12046026 
+
+Package: com.devntnghia.sspd
+Name: SamsungPowerDown
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Turn your boring Power Down view into Samsung's one!
+Maintainer: DevNTNghia
+Author: DevNTNghia
+Section: Tweaks
+Filename: ./debs/sspd.deb
+MD5sum: 197d4c747aaa58aa7483d1af2a57fae8
+Size: 92488
