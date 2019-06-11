@@ -261,6 +261,21 @@ Filename: ./debs/sbbxs141.deb
 MD5sum: b34c07cf7e53ad8abba3ea7cfc2942f1
 Size: 113250
 
+Package: com.frankynghia.sbboosterxi
+Name: SBBoosterXS
+Author: FrankyNouva, NTNghia
+Description: Optimize Your SpringBoard! Added Support For iOS 12.
+Depends: mobilesubstrate, preferenceloader
+Pre-Depends: firmware(>= 9.0), cy+cpu.arm64
+Conflicts: com.frankynghia.sbbooster
+Maintainer: NTNghia
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.5
+Filename: ./debs/sbbxs15.deb
+MD5sum: 0eacfc4c7ae339c90c0eedb2a8c1eaa9
+Size: 106128
+
 Package: com.frankynghia.sbbxslite
 Name: SBBoosterXS Lite
 Author: FrankyNouva, NTNghia
