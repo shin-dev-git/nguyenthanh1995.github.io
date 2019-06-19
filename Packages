@@ -321,6 +321,21 @@ Filename: ./debs/sbbxs153.deb
 MD5sum: f02b1df9141ec8713e52a7d89799ae7f
 Size: 101800
 
+Package: com.frankynghia.sbboosterxi
+Name: SBBoosterXS
+Author: FrankyNouva, NTNghia
+Description: Optimize Your SpringBoard!
+Depends: mobilesubstrate, preferenceloader
+Pre-Depends: firmware(>= 9.0), cy+cpu.arm64
+Conflicts: com.frankynghia.sbbooster
+Maintainer: NTNghia
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.5.4
+Filename: ./debs/sbbxs154.deb
+MD5sum: 9115d5e1b28bff15bd888e52ad3fbe6f
+Size: 92610
+
 Package: com.frankynghia.sbbxslite
 Name: SBBoosterXS Lite
 Author: FrankyNouva, NTNghia
