@@ -1,56 +1,16 @@
-Package: com.devntnghia.arpscan
-Version: 1.8.1-1
-Section: Utilities
-Maintainer: NTNghia <hiimnghia@icloud.com>
-Depends: libpcap
+Package: com.devntnghia.archivedtweaks
+Name: Archived - Depic only
+Author: NTNghia
+Description: NTNghia's old tweak. Download in depiction.
+Depiction: https://devntnghia.github.io/depics/archived.html
+Pre-Depends: firmware(>= 9.0), cy+cpu.arm64
+Maintainer: NTNghia
 Architecture: iphoneos-arm
-Filename: ./debs/ArpScan.deb
-Size: 283492
-MD5sum: b2c3b1abd6b95d70973a578a76aba6fe
-Description: ArpScan cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
-Name: ArpScan Cho netKillUI
-Author: NTNghia <hiimnghia@icloud.com>
-
-Package: com.devntnghia.bytafont
-Version: 1.1
-Section: Utilities
-Maintainer: NTNghia <hiimnghia@icloud.com>
-Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
-Depends: com.devntnghia.bytafonttm
-Architecture: iphoneos-arm
-Filename: ./debs/BytaFont.deb
-Size: 2003616
-MD5sum: c9805367393de51bf27f59a8953cbf5a
-Description: BytaFont cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
-Name: BytaFont Cho iOS 10.3.x
-Author: NTNghia <hiimnghia@icloud.com>
-Icon: file:///Applications/BytaFont3.app/AppIcon60x60@2x.png
-
-Package: com.devntnghia.bytafonttm
-Version: 1.1
-Section: Utilities
-Maintainer: NTNghia <hiimnghia@icloud.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs/BytaFontTM.deb
-Size: 27790
-MD5sum: a1294fc6cc34e579aad11d03f3a31b95
-Description: BytaFontTM cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
-Name: BytaFont Tweak Mode Cho iOS 10.3.x
-Author: NTNghia <hiimnghia@icloud.com>
-
-Package: com.devntnghia.dsniffsuite
-Version: 2.5.1
-Section: Development
-Maintainer: NTNghia <hiimnghia@icloud.com>
-Conflicts: org.mulliner.dsniff
-Architecture: iphoneos-arm
-Filename: ./debs/DsniffSuite.deb
-Size: 2110730
-MD5sum: 7f51e9c2a4f53387ddd590730331ff62
-Description: DsniffSuite cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
-Name: DsniffSuite Cho netKillUI
-Author: NTNghia <hiimnghia@icloud.com>
+Section: Tweaks
+Version: 1
+Filename: ./debs/0
+MD5sum: 0
+Size: 0
 
 Package: com.devntnghia.eraser
 Version: 1.1.5.1
@@ -66,47 +26,6 @@ Filename: ./debs/Eraser.deb
 Size: 520298
 MD5sum: d5ed1ad5ed9529544e8e4d99b183c88f
 
-Package: com.devntnghia.fixios841
-Version: 1.0
-Section: Utilities
-Maintainer: NTNghia <hiimnghia@icloud.com>
-Pre-Depends: firmware (>= 8.4.1), firmware (<= 8.4.1)
-Depends: coreutils
-Architecture: iphoneos-arm
-Filename: ./debs/fix841.deb
-Size: 878
-MD5sum: 223af15a4524a898e077876966c8641e
-Description: Fix iMessenges, FaceTime Cho iOS 8.4.1 được làm bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
-Name: Fix iMess, FTime Cho iOS 8.4.1
-Author: NTNghia <hiimnghia@icloud.com>
-
-Package: com.devntnghia.mterminal
-Version: 1.0
-Section: Utilities
-Maintainer: NTNghia <hiimnghia@icloud.com>
-Depends: firmware (>= 4.0), system-cmds
-Architecture: iphoneos-arm
-Filename: ./debs/MTerminal.deb
-Size: 129078
-MD5sum: 3791ae1665597d6bc5fd4664149bde4c
-Description: MTerminal cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
-Name: MTerminal Cho 10.3.x
-Author: NTNghia <hiimnghia@icloud.com>
-Icon: file:///Applications/MTerminal.app/Icon.png
-
-Package: com.devntnghia.netkillui
-Version: 1.1
-Section: Utilities
-Maintainer: NTNghia <hiimnghia@icloud.com>
-Depends: com.devntnghia.arpscan, com.devntnghia.dsniffsuite, network-cmds, libpcap, gawk
-Architecture: iphoneos-arm
-Filename: ./debs/netKillUI.deb
-Size: 261698
-MD5sum: 69d8814bdacc557b440716858b68c87f
-Description: netKillUI cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
-Name: netKillUI Cho iOS 10.3.x
-Author: NTNghia <hiimnghia@icloud.com>
-
 Package: com.devntnghia.s8theme
 Version: 1.0.4
 Section: Themes
@@ -116,6 +35,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/theme.deb
 Size: 11918078
 MD5sum: 3206b5ef0457ee25ec872fe45e6f54e9
+SHA256: c50f98c8abd64563b94371ca4f885668ed67bedbcf85d6f2e9f20f42d0d9ae74
 Description: Theme Galaxy S8 Cho iPhone và iPad.
 Name: S8 Theme
 Author: NTNghia <hiimnghia@icloud.com>
@@ -128,6 +48,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/widget.deb
 Size: 706102
 MD5sum: 859ff75e0b22bd644d990486dd77ada3
+SHA256: 0d9b0871c65c7602bcbb7be8a66e3dcead595a892a5e560082fccd0abbf810f5
 Description: Widget Galaxy S8 Cho iPhone và iPad.
 Name: S8 Widgets
 Author: NTNghia <hiimnghia@icloud.com>
@@ -158,48 +79,6 @@ MD5sum: cf70b0e197b309ae7160a10052798eda
 Description: sudo = Super User Do
 Name: Sudo For CS
 Author: NTNghia <hiimnghia@icloud.com>
-
-Package: com.hatiato.edgy
-Version: 1.0.2
-Section: Font
-Maintainer: NTNghia <hiimnghia@icloud.com>
-Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
-Architecture: iphoneos-arm
-Filename: ./debs/Edgy.deb
-Size: 15831400
-MD5sum: be7d6a9a531725fca1000b1446032595
-Description: Font Edgy được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
-Name: Edgy Font By HTT
-Author: Hà Tía Tô
-Icon: file:///Library/Themes/Edgy.font/Icon.PNG
-
-Package: com.hatiato.edgybeta
-Version: 1.0
-Section: Font
-Maintainer: NTNghia <hiimnghia@icloud.com>
-Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
-Architecture: iphoneos-arm
-Filename: ./debs/Dream.deb
-Size: 14947278
-MD5sum: cfc11bb7a2344da1354d7e1210ed3c7c
-Description: Font Cariar Dream được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
-Name: Dream Font By HTT
-Author: Hà Tía Tô
-Icon: file:///Library/Themes/Dream.font/Icon.PNG
-
-Package: com.hatiato.tex
-Version: 1.0
-Section: Font
-Maintainer: NTNghia <hiimnghia@icloud.com>
-Depends: firmware (>= 10.3), firmware (<= 11.1.2), com.anemonetheming.anemone
-Architecture: iphoneos-arm
-Filename: ./debs/Tex.deb
-Size: 16307874
-MD5sum: 801d3c280649240b9eec0078d3331ca0
-Description: Font Tex được Mod lại bởi Hà Tía Tô bên nhóm "Thủ thuật Cydia và Jailbreak" và upload lên Source bởi DevNTNghia. Chúng tôi cảm ơn anh vì đã đóng góp cho nhóm!
-Name: Tex Font By HTT
-Author: Hà Tía Tô
-Icon: file:///Library/Themes/Tex.font/Icon.PNG
 
 Package: com.frankynghia.sbboosterxi
 Name: SBBoosterXI
@@ -334,6 +213,7 @@ Section: Tweaks
 Version: 1.5.4
 Filename: ./debs/sbbxs154.deb
 MD5sum: 9115d5e1b28bff15bd888e52ad3fbe6f
+SHA256: ca09e46c4cf5e7c46d69a1a657a772856f916d083e29f061935be522700073c0
 Size: 92610
 
 Package: com.frankynghia.sbbxslite
@@ -378,6 +258,7 @@ Priority: standard
 Description: temporarily assume root privileges
 Filename: ./debs/sudoxi.deb
 MD5sum: 80276f54848e8a07703c243362c25ddc
+SHA256: 10c6f2ebd52a06ef068b0571f813e6a2901a1b8ef5f0d2052a13316de365d4ca
 Size: 205470
 
 Package: com.devntnghia.blockread
@@ -392,6 +273,7 @@ Version: 1.0.1
 Filename: ./debs/BlockRead.deb
 MD5sum: b92efe73c23124f42f716d44d5962e03
 Size: 13266
+SHA256: fed4a53525d68e0b36c71a26a6d746f4925610ca01ca82b7f3e100301f6859e7
 
 Package: com.devntnghia.oneui
 Version: 1.0.1
@@ -403,6 +285,7 @@ Name: OneUI Theme
 Author: DevNTNghia <hiimnghia@icloud.com>
 Filename: ./debs/oneui.deb
 MD5sum: b22ca25a0ca2cdfe09e869214124eb0e
+SHA256: c11d6b8411ab63cce05506438748df180c8c48cd57a9ca43ea77e1ca9f6217f4
 Size: 12046026 
 
 Package: com.devntnghia.sspd
@@ -457,4 +340,5 @@ Author: DevNTNghia
 Section: Tweaks
 Filename: ./debs/sspd112.deb
 MD5sum: 8d7ff736b49613e7166189149a942258
+SHA256: a9e340162680ac4235dc41fd684bf3901ad20c20696adfe676f4a47ebdfa78d9
 Size: 137578
