@@ -342,3 +342,18 @@ Filename: ./debs/sspd112.deb
 MD5sum: 8d7ff736b49613e7166189149a942258
 SHA256: a9e340162680ac4235dc41fd684bf3901ad20c20696adfe676f4a47ebdfa78d9
 Size: 137578
+
+Package: com.devntnghia.sspd
+Name: SamsungPowerDown
+Depends: mobilesubstrate
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Turn your boring Power Down view into Samsung's one!
+Depiction: https://devntnghia.github.io/depics/sspd.html
+Maintainer: DevNTNghia
+Author: DevNTNghia
+Section: Tweaks
+Filename: ./debs/sspd12.deb
+MD5sum: c57599e0e6d5d6bced6ab6554be5768c
+SHA256: e7835d172511408277dcc480cda97b0082a723daddcf3d0907e1855866bc0728
+Size: 143486
