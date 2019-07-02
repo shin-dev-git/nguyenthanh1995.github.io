@@ -357,3 +357,17 @@ Filename: ./debs/sspd12.deb
 MD5sum: c57599e0e6d5d6bced6ab6554be5768c
 SHA256: e7835d172511408277dcc480cda97b0082a723daddcf3d0907e1855866bc0728
 Size: 143486
+
+Package: com.devntnghia.mterminal
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: NTNghia <hiimnghia@icloud.com>
+Section: Utilities
+Description: MTerminal cho iOS 10.3.x được mod lại bởi DevNTNghia. Người hiện đang là Admin trong nhóm Thủ Thuật Cydia và Jailbreak, Group Jailbreak (Chia sẻ niềm đam mê).
+Depends: firmware (>= 4.0), system-cmds
+Author: NTNghia <hiimnghia@icloud.com>
+Icon: file:///Applications/MTerminal.app/Icon.png
+Name: MTerminal Cho 10.3.x
+Filename: ./debs/MTerminal.deb
+MD5sum: 3791ae1665597d6bc5fd4664149bde4c
+Size: 129078
