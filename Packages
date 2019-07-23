@@ -26,20 +26,6 @@ Filename: ./debs/Eraser.deb
 Size: 520298
 MD5sum: d5ed1ad5ed9529544e8e4d99b183c88f
 
-Package: com.devntnghia.s8theme
-Version: 1.0.4
-Section: Themes
-Maintainer: NTNghia <hiimnghia@icloud.com>
-Depends: com.anemonetheming.anemone
-Architecture: iphoneos-arm
-Filename: ./debs/theme.deb
-Size: 11918078
-MD5sum: 3206b5ef0457ee25ec872fe45e6f54e9
-SHA256: c50f98c8abd64563b94371ca4f885668ed67bedbcf85d6f2e9f20f42d0d9ae74
-Description: Theme Galaxy S8 Cho iPhone và iPad.
-Name: S8 Theme
-Author: NTNghia <hiimnghia@icloud.com>
-
 Package: com.devntnghia.s8widget
 Version: 1.0.3
 Section: Themes
@@ -260,20 +246,6 @@ Filename: ./debs/sudoxi.deb
 MD5sum: 80276f54848e8a07703c243362c25ddc
 SHA256: 10c6f2ebd52a06ef068b0571f813e6a2901a1b8ef5f0d2052a13316de365d4ca
 Size: 205470
-
-Package: com.devntnghia.blockread
-Name: BlockReadMessenger
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Description: Block Read In Facebook Messenger App.
-Maintainer: DevNTNghia
-Author: DevNTNghia
-Section: Tweaks
-Version: 1.0.1
-Filename: ./debs/BlockRead.deb
-MD5sum: b92efe73c23124f42f716d44d5962e03
-Size: 13266
-SHA256: fed4a53525d68e0b36c71a26a6d746f4925610ca01ca82b7f3e100301f6859e7
 
 Package: com.devntnghia.oneui
 Version: 1.0.1
