@@ -1,3 +1,18 @@
+Package: git.shin.bytafont3
+Depends: firmware (>= 9),unzip,mobilesubstrate,git.shin.bytafonttmnc
+Name: BytaFont 3 for iOS10
+Version: 3.2
+Architecture: iphoneos-arm
+Description: BytaFont 3 lets you apply fonts to your iDevice in few taps.
+Depiction: http://repo.bytafont.com/bytafont_depiction
+Maintainer: nguyenthanh <thanhnguyennguyen1995@gmail.com>
+Author: shin-chan <thanhnguyennguyen1995@gmail.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Section: System
+Filename: ./debs/bytafont3.deb
+MD5sum: 56ca11e9becb176e98982a2fe72f298f
+Size: 2003210
+
 Package: git.shin.batterylifeplugin
 Name: BatteryLife Plugin
 Author: shin-chan
