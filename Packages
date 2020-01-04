@@ -1,3 +1,18 @@
+Author: shin-chan
+Maintainer: Nguyen Thanh <thanhnguyennguyen1995@gmail.com>
+Name: BatteryLife Plugin
+Package: git.shin.batterylifeplugin
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader, iokittools
+Section: Tweaks
+Version: 1.7.0
+Architecture: iphoneos-arm
+Description: Plugin for BatteryLife iPA
+Tag: purpose::uikit, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Icon: file:///Applications/BatteryLife.app/AppIcon57x57.png
+Filename: ./debs/batterylifeplugin.deb
+MD5sum: e40f1dc7ad5e95e8fc380a05b304f3b7
+Size: 210352
+
 Package: git.shin.ifile
 Name: iFile for iOS
 Author: shin-chan
