@@ -1,8 +1,8 @@
-Origin: devntnghia
-Label: who am i?
+Origin: nguyenthanh
+Label: shin-chan (N.Thanh)
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: an official repo of devntnghia. updated sha256 for >= ios 10 compatible debs.
+Description: Source Cydia Repo by Shin-chan (Nguyen Thanh)
