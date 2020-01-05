@@ -1,3 +1,100 @@
+Package: git.shin.cachewipe
+Description: Apps Caches Switch
+Version: 0.0~beta1
+Section: Addons
+Maintainer: nguyenthanh
+Depends: mobilesubstrate, com.a3tweaks.flipswitch
+Architecture: iphoneos-arm
+Name: CacheWipe
+Author: julioverne
+Icon: file:///Library/Switches/CacheWipe.bundle/icon@2x.png
+Filename: ./debs/cachewipe.deb
+MD5sum: 923620aeb565a1b4278e774dd3f37ecb
+Size: 17118
+
+Package: git.shin.afaker
+Version: 2.0
+Section: Tools
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Description: fake carrier/battery; dialer passcode app launching
+Name: AFaker
+Author: shin-chan
+Icon: file:///Library/PreferenceBundles/AFaker.bundle/AFaker@2x.png
+Filename: ./debs/afaker.deb
+MD5sum: 203eb24bf05a0bc749186bf41af8e11e
+Size: 70892
+
+Package: git.shin.icleanerpro
+Name: iCleaner Pro Crack
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi
+Version: 7.7.5
+Architecture: iphoneos-arm
+Section: Utilities
+Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+Filename: ./debs/icleanerpro.deb
+MD5sum: 5d5b7bcf2ded83abf0fde7dc8261fd45
+Size: 7695618
+
+Package: git.shin.gameplayer
+Version: 3.4
+Priority: optional
+Section: Hacked
+Maintainer: nguyenthanh
+Conflicts: com.duowan.gameplayer
+Architecture: iphoneos-arm
+Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 6.x, 7.x, 8.x and 9.x are supported.
+Name: GamePlayer
+Author: shin-chan
+Icon: file:///Applications/GamePlayer.app/icon-57.png
+Filename: ./debs/gameplayer.deb
+MD5sum: 757ab558c38942271d94bf16bbcb360f
+Size: 1502940
+
+Package: git.shin.randomiconsflip
+Name: Random Icon Flip
+Depends: mobilesubstrate, firmware (>= 4.0)
+Architecture: iphoneos-arm
+Description: Randomly Flips SB Icons
+Maintainer: nguyenthanh
+Author: shin-chan
+Section: Tweaks
+Version: 0.3-7
+Filename: ./debs/randomiconsflip.deb
+MD5sum: a2d933132a92983bd5b3caebb1a2c1f0
+Size: 10236
+
+Package: git.shin.reformx
+Name: ReformX
+Version: 1.0-1
+Architecture: iphoneos-arm
+Description: ReformX. SpringBoard customization tweak.
+Author: shin-chan 
+Section: Tweaks
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), com.chpwn.iconsupport
+Conflicts: com.zestlabs.reform
+Icon: file:///Applications/ReformX.app/ReformX.png
+Filename: ./debs/reformx.deb
+MD5sum: 913ced828b472803399ea7d65559e49a
+Size: 1192034
+
+Package: git.shin.slidetounlock10
+Description: Bring back Slide to Unlock to iOS 10. This tweak brings up the passcode view when you slide to the right (normally to show Today view), or unlocks your device if you have no passcode set.
+Version: 0.0.2
+Section: Tweaks
+Maintainer: nguyenthanh
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Name: SlideToUnlock10
+Author: shin-dev
+Filename: ./debs/slidetounlock10.deb
+MD5sum: 54fc343a3c1e060b5ac7f6efbc274183
+Size: 5788
+
 Package: git.shin.flex3-32b
 Name: Flex 3 for arm32
 Version: 3~EarlyAccess3
@@ -23,7 +120,7 @@ Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader (>= 2.0)
 Icon: file:///Library/PreferenceBundles/TageSettings.bundle/Icon-small@2x.png
 Version: 1.2.3~beta1
 Filename: ./debs/tage.deb
-MD5sum: bbc24fd3b6b8c21424780a2be8c324d6
+MD5sum: f69f9a0b8a464600842996a0038e0b0b
 Size: 613680
 
 Package: git.shin.smarttap
@@ -55,7 +152,7 @@ dev: Matt Clarke <matt@incendo.ws>
 Maintainer: nguyenthanh
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Filename: ./debs/reprovision.deb
-MD5sum: ac0c66d816f273e7b6e28802887d4357
+MD5sum: cc736717157f963ae19352370e1eb555
 Size: 14255832
 
 Package: git.shin.myinst
@@ -118,7 +215,7 @@ dev: shin-chan
 Installed-Size: 727
 Icon: file:///Library/PreferenceBundles/Dim.bundle/Dim@2x.png
 Filename: ./debs/dim.deb
-MD5sum: bbc795652758f13702d5538019bb89e7
+MD5sum: 039e4e76b7cbab3d2678abc5f7b1da73
 Size: 243884
 
 Package: git.shin.bytafonttmnc
