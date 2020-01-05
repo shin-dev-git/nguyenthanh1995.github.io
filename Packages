@@ -69,7 +69,7 @@ Architecture: iphoneos-arm
 Name: myinst
 Author: shin-chan
 Filename: ./debs/myinst.deb
-MD5sum: f0706b2f78e459b4e90d699de8dbb507
+MD5sum: e4445673b5310b6d4f110b1b36938a2a
 Size: 91918
 Description: Install your iPA. Using command myinst <path to .iPA>
 
