@@ -88,7 +88,7 @@ dev: shin-chan
 Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
 Version: 1.9.13~beta6
 Filename: ./debs/libactivator.deb
-MD5sum: f82230c857cad4d5e5ea394c1fad0ef5
+MD5sum: 9cb1d7fb04142abea911939571f106e6
 Size: 1135446
 
 Package: git.shin.gamegem10.3
