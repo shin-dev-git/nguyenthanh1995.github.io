@@ -13,24 +13,6 @@ Filename: ./debs/flex3-32bit.deb
 MD5sum: 6f9c2159b4febbbbf4f18f8afaf83c37
 Size: 34533188
 
-Author: John Coates <john@johncoates.me>
-Name: Flex 3
-Package: com.johncoates.Flex3
-Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
-Recommended: com.modmyi.libswift4 (>= 4.0.3)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
-Section: Tweaks
-Installed-Size: 57210
-Version: 3~EarlyAccess4
-Architecture: iphoneos-arm
-Description: Develop your own tweaks and share them on the Flex Community Cloud
-dev: acapulco1988
-Icon: file:///Applications/Flex.app/AppIcon29x29@2x.png
-Filename: ./debs/flex3.deb
-MD5sum: eed45d8cc630e66d94aa8e4f91b1a8cd
-Size: 20615182
-
 Package: git.shin.tage
 Name: Tage
 Architecture: iphoneos-arm
@@ -42,7 +24,7 @@ Icon: file:///Library/PreferenceBundles/TageSettings.bundle/Icon-small@2x.png
 Version: 1.2.3~beta1
 Filename: ./debs/tage.deb
 MD5sum: bbc24fd3b6b8c21424780a2be8c324d6
-Size: 613726
+Size: 613680
 
 Package: git.shin.smarttap
 Version: 0.8-350k
@@ -74,7 +56,7 @@ Maintainer: nguyenthanh
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Filename: ./debs/reprovision.deb
 MD5sum: ac0c66d816f273e7b6e28802887d4357
-Size: 14255882
+Size: 14255832
 
 Package: git.shin.myinst
 Version: 5.6.0.2
@@ -88,7 +70,7 @@ Name: myinst
 Author: shin-chan
 Filename: ./debs/myinst.deb
 MD5sum: f0706b2f78e459b4e90d699de8dbb507
-Size: 91854
+Size: 91918
 Description: Install your iPA. Using command myinst <path to .iPA>
 
 Package: libactivator
@@ -107,7 +89,7 @@ Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
 Version: 1.9.13~beta6
 Filename: ./debs/libactivator.deb
 MD5sum: f82230c857cad4d5e5ea394c1fad0ef5
-Size: 1401504
+Size: 1135446
 
 Package: git.shin.gamegem10.3
 Name: GameGem for iOS10
@@ -137,7 +119,7 @@ Installed-Size: 727
 Icon: file:///Library/PreferenceBundles/Dim.bundle/Dim@2x.png
 Filename: ./debs/dim.deb
 MD5sum: bbc795652758f13702d5538019bb89e7
-Size: 243936
+Size: 243884
 
 Package: git.shin.bytafonttmnc
 Name: BytaFont Tweak Mode NC
@@ -152,7 +134,7 @@ Version: 1.1.7
 Installed-Size: 200
 Filename: ./debs/bytafonttmnc.deb
 MD5sum: e8c8a021416d760f0a420dd05417da7f
-Size: 27732
+Size: 27656
 
 Package: git.shin.bytafont3
 Depends: firmware (>= 9),unzip,mobilesubstrate,git.shin.bytafonttmnc
@@ -165,7 +147,7 @@ Author: shin-chan <thanhnguyennguyen1995@gmail.com>
 Section: System
 Filename: ./debs/bytafont3.deb
 MD5sum: 56ca11e9becb176e98982a2fe72f298f
-Size: 2003210
+Size: 2003150
 
 Package: git.shin.batterylifeplugin
 Name: BatteryLife Plugin
@@ -192,4 +174,4 @@ Maintainer: shin-chan
 Section: System
 Filename: ./debs/ifile.deb
 MD5sum: 5203a3558e04ee9a81bd9c76324f8a4f
-Size: 9736644
+Size: 9736594
