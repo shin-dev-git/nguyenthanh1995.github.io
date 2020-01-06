@@ -1,3 +1,235 @@
+Name: Anemone
+Package: git.shin.anemone
+Priority: optional
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
+Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
+Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Version: 2.1.8-2
+Architecture: iphoneos-arm
+Description: An awesome theme manager!
+Author: AnemoneTeam
+dev: anemonetheming
+Section: Tweaks
+Installed-Size: 8112
+Icon: file:///Applications/Anemone.app/icon.png
+Filename: ./debs/anemone.deb
+MD5sum: 8e4a867ea9d953645785ca0560f63c66
+Size: 4038026
+
+Package: git.shin.blackie3
+Name: Blackie 3
+Version: 1.1.2
+Section: Themes
+Architecture: iphoneos-arm
+Conflicts: com.macciti.blackie2
+Author: AX3L_4
+Maintainer: AX3L_4
+Description: Do what you love. Love what you do
+Sponsor: nguyenthanh
+Filename: ./debs/blackie3.deb
+MD5sum: 031a606dffe373e252b96b7edddd7a9a
+Size: 37504882
+
+Package: git.shin.blackie2
+Version: 1.1
+Section: Themes
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Name: Blackie 2
+Author: Axel4
+Sponsor: nguyenthanh
+Description: Blackie 2
+Filename: ./debs/blackie2.deb
+MD5sum: 4f52293870a80ad68bf064b101ed2586
+Size: 10233046
+
+Package: git.shin.blackie
+Name: Blackie
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Wanna taste the dark?
+Author: Axel4 
+Section: Themes
+Depends: winterboard
+Filename: ./debs/blackie.deb
+MD5sum: 8ecab019aa5e35542acef3d26b32015b
+Size: 14216584
+
+Author: Reed Weichler
+Maintainer: nguyenthanh
+Name: Cylinder
+Package: git.shin.cylinder
+Section: Tweaks
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Make your icons dance
+Sponsor: nguyenthanh1995
+dev: rweichler
+Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
+Filename: ./debs/cyliner.deb
+MD5sum: 9be14f89e698998a92eb68da7d3e1c35
+Size: 504188
+
+Package: git.shin.zeppelin
+Name: Zeppelin
+Version: 2.1.1-1
+Architecture: iphoneos-arm
+Description: Replaces carrier text with an image!
+Author: Alex Zielenski
+Section: Tweaks
+Maintainer: nguyenthanh
+Depends: firmware (>= 4.2), mobilesubstrate, preferenceloader
+Icon: http://i.imgur.com/tvLxnB5.png
+Filename: ./debs/zeppelin.deb
+MD5sum: 60e08772c417390ea805f4337f41438b
+Size: 961826
+
+Package: git.shim.alkaline
+Name: Alkasine
+Version: 1.6
+Architecture: iphoneos-arm
+Author: Ben software
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Priority: extra
+Section: Tweaks
+Description: Themeable status bar battery replacement for iOS 7.
+Maintainer: Ben
+Filename: ./debs/alkasine.deb
+MD5sum: 2695c074f0cd4805fd51ea97537a7b08
+Size: 1381136
+
+Package: git.shin.barsxi
+Name: BarsXI
+Version: 0.0.3
+Architecture: iphoneos-arm
+Description: Signal Bars from iOS11
+Author: bboyheadman
+Section: System
+Maintainer: Mohadu313
+Filename: ./debs/barsxi.deb
+MD5sum: d0029ea509f282601aee73b7a87fdc75
+Size: 3415790
+
+Package: git.shin.ballast
+Name: Ballast
+Depends: firmware (>=9.0), mobilesubstrate, com.chpwn.iconsupport, preferenceloader
+Conflicts: com.broganminer.anchor
+Architecture: iphoneos-arm
+Description: Keep your icons where you want them. Forked version of Anchor by Brogan Miner.
+Maintainer: nguyenthanh
+Author: tateu (Josh Harris) <tateu@tateu.net>
+Section: Tweaks
+Version: 2.0.5~beta2
+Installed-Size: 398
+Filename: ./debs/ballast.deb
+MD5sum: 7f2f876ff0fe8a49455f789ba69bd937
+Size: 105632
+
+Package: git.shin.mterminal
+Name: MTerminal
+Version: 1.4-5
+Architecture: iphoneos-arm
+Description: A MobileTerminal fork
+Depends: firmware (>= 4.0), system-cmds
+Sponsor: nguyenthanh1995
+Maintainer: nguyenthanh1995
+Author: lordscotland
+Section: Apps
+dev: officialscheduler
+Icon: file:///Applications/MTerminal.app/Icon.png
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9
+Filename: ./debs/mterminal.deb
+MD5sum: 07cc8f9ddb42d9c04b468b20d846984a
+Size: 128976
+
+Author: UnlimApps Inc
+Maintainer: nguyenthanh
+Name: uasharedtools (iOS 7-10) Cracked
+Package: com.unlimapps.uasharedtools.stash
+Provides: com.unlimapps.uasharedtools.virtual
+Depends: mobilesubstrate, firmware (<< 11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.nostash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Section: Unlimapps
+Replaces: com.unlimapps.uasharedtools.nostash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Version: 2.2r-94b2
+Architecture: iphoneos-arm
+Description: shared tools for unlimapps tweak
+Filename: ./debs/uasharetools.deb
+MD5sum: 4bbf8a58a854317fc7d292429b1408aa
+Size: 19769652
+
+Package: git.shin.aquaboard8
+Name: AquaBoard (iOS 10/9/8) Cracked
+Version: 2.2-29k
+Architecture: iphoneos-arm
+Description: Amazing Water Effects On SpringBoard
+Author: Elias Limneos
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceLoader (>= 2.2.2), firmware (>= 8.0)
+Conflicts: net.limneos.aquaboard, com.fuyuchi.unlockize
+Icon: file:///Library/PreferenceBundles/AquaPrefs.bundle/AquaPrefs@2x.png
+Filename: ./debs/aquaboard8.deb
+MD5sum: f9596c4dd8a2ac4cc0cded27e95b87c4
+Size: 104292
+
+Package: git.shin.filzatm
+Name: Filza Theme Manager
+Version: 0.0.6
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, com.tigisoftware.filza
+Author: WitherTech
+Maintainer: ngugenthanh
+Description: Theme Manager for Filza
+Filename: ./debs/filzatm.deb
+MD5sum: 42780325fbbb02ce4f0ead717f468400
+Size: 59580
+
+Package: git.shin.callbar7
+Name: CallBar (iOS 10/9/8/7)
+Version: 1.3-169
+Architecture: iphoneos-arm
+Description: Don't let incoming calls interrupt you!
+Author: Elias Limneos & Josh Tucker 
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5100), firmware (>= 7.0), preferenceloader (>= 2.2.2), com.rpetrich.rocketbootstrap ( >= 1.0.4)
+Conflicts: org.thebigboss.callbar, com.repo.xarold.com.callbar
+Icon: file:///Library/PreferenceBundles/CallBar.bundle/CallBar@2x.png
+Filename: ./debs/callbar7.deb
+MD5sum: 1238705b7239c310debd001fff2c36b0
+Size: 1397750
+
+Package: git.shin.evanesco
+Name: Evanesco
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Clear Your Homescreen After Inactivity
+ Added iOS 8 compatibility. Added option of selecting fade alpha. 
+Maintainer: nguyenthanh
+Author: CP Digital Darkroom
+Section: Tweaks
+Icon: file:///Library/PreferenceLoader/Preferences/Evanesco@3x.png
+Version: 1.1.3
+Filename: ./debs/evanesco.deb
+MD5sum: 1014305cfbfc221f6e3e09f2b9f38f51
+Size: 179578
+
+Package: git.shin.fiona
+Name: Fiona
+Author: julioverne
+Version: 0.1
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: Keep WiFi Always Connected
+Maintainer: nguyentahnh
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/FionaSettings.bundle/icon@2x.png
+Filename: ./debs/fiona.deb
+MD5sum: 95e3a8474e417a3acf64ba3b8f665c2b
+Size: 48942
+
 Package: git.shin.cachewipe
 Description: Apps Caches Switch
 Version: 0.0~beta1
