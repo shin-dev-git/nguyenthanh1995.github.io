@@ -419,17 +419,18 @@ MD5sum: 6f9c2159b4febbbbf4f18f8afaf83c37
 Size: 34533188
 
 Package: git.shin.tage
-Name: Tage
+Version: 1.2.2-1k
+Section: Tweaks
+Maintainer: nguyenthanh
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0)
 Architecture: iphoneos-arm
 Description: Awesome multitasking gestures and more.
-Author: shin-chan
-Section: Tweaks
-Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader (>= 2.0)
-Icon: file:///Library/PreferenceBundles/TageSettings.bundle/Icon-small@2x.png
-Version: 1.2.3~beta1
+Name: Tage
+Author: Ma Jun
+Icon: file:////Library/PreferenceBundles/TageSettings.bundle/Icon-small@2x.png
 Filename: ./debs/tage.deb
-MD5sum: d6e1a4c7eed7b6c648eb993215a0f34e
-Size: 620600
+MD5sum: 3c22bf7a65389db04349bbdf94549fe2
+Size: 620248
 
 Package: git.shin.smarttap
 Version: 0.8-350k
