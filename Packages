@@ -1,3 +1,112 @@
+Package: git.shin.reprovision
+Name: ReProvision
+Version: 0.5~release
+Description: Re-sign applications on your device
+Section: System
+Depends: firmware (>= 9.0)
+Priority: optional
+Replaces: com.matchstic.Extender-Installer
+Provides: com.matchstic.Extender-Installer
+Architecture: iphoneos-arm
+Author: Matt Clarke
+dev: Matt Clarke
+Maintainer: nguyenthanh
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+Filename: ./debs/reprovision5.deb
+MD5sum: e46b50518c73da3f2d9c53979e831340
+Size: 14342660
+
+Name: Goodges
+Package: git.shin.goodges
+Priority: optional
+Depends: firmware (>= 8.0), mobilesubstrate, org.thebigboss.libcolorpicker, applist, preferenceloader
+Conflicts: com.spiritoflogic.aeternum, com.repo.xarold.com.aeternum, com.sull.aeternum, com.hackyouriphone.aeternum, com.sull.aeternum, com.iphonecake.aeternum
+Version: 1.1.5
+Architecture: iphoneos-arm
+Description: Good bye badges, hello labels! For iOS 8-10
+Maintainer: nguyenthanh
+Author: faku99
+Section: Tweaks
+dev: faku99
+Icon: file:///Library/PreferenceBundles/GGPrefs.bundle/images/icon@2x.png
+Filename: ./debs/goodges.deb
+MD5sum: 5f6c9efe7aec21daf2729f44aadc80eb
+Size: 90226
+
+Package: git.shin.goodges2
+Name: Goodges 2
+Version: 2.1.4
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 11.0), me.nepeta.libcolorpicker, applist
+Author: NoisyFlake
+Maintainer: NoisyFlake
+Description: Good bye badges, hello labels! For iOS 11-12
+Filename: ./debs/goodges2.deb
+MD5sum: 61a6b3c6c37e278cfef0d183ff90a6a6
+Size: 117450
+
+Package: git.shin.xgpspro
+Name: Fake GPS Pro Cracked
+Version: 2.0.2-1
+Architecture: iphoneos-arm
+Description: Sahte konum ayarlamaya yarar.
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: cn.tinyapps.xgpsfree, cn.tinyapps.xgpslite, com.xsellize.xgpspro, com.hackyouriphone.xgpspro, cn.tinyapps.xgpspro
+Replaces: cn.tinyapps.xgpsfree, cn.tinyapps.xgpslite, com.xsellize.xgpspro, com.hackyouriphone.xgpspro, cn.tinyapps.xgpspro
+Maintainer: nguyenthanh
+Author: shin-chan
+Filename: ./debs/xgpspro.deb
+MD5sum: 7368555bb9dbb4551727d81b41029f15
+Size: 2754018
+
+Package: git.shin.activatorvi
+Version: 1.0
+Section: Addons
+Maintainer: nguyenthanh
+Depends: mobilesubstrate, libactivator
+Architecture: iphoneos-arm
+Name: Activator (vi)
+Author: shin-dev
+Icon: file:///Library/IconRepo/tienichbosung.png
+Description: Add Vietnamese language for Activator
+Filename: ./debs/activatorvi.deb
+MD5sum: d7971714f4b2745b8a9f5af58d18974f
+Size: 9052
+
+Author: UnlimApps Inc
+Maintainer: 
+Package: git.shin.ytpp
+Replaces: com.unlimapps.ytpp
+Name: YT++ for YouTube
+Version: 1.4r-106
+Description: Download all YouTube Videos! Continue background playback and much more!!!
+Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-94)
+Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib, com.unlimapps.ytpp
+Priority: optional
+Architecture: iphoneos-arm
+dev: i4iphones
+Tag: purpose::extension, role::enduser
+Section: Unlimapps
+Filename: ./debs/ytpp.deb
+MD5sum: 06eb1b0341e8340347175c87944bde99
+Size: 6668410
+
+Package: git.shin.iconrepo
+Version: 1.0
+Priority: required
+Section: System
+Essential: yes
+Maintainer: nguyenthanh <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Name: Icon for shin repo
+Author: Nguyen Nhu
+Sponsor: nguyenthanh
+Description: Package Icon for Nguyen Thanh (shin-dev) Repo by Nguyen Nhu
+Filename: ./debs/iconrepo.deb
+MD5sum: 4242e176e53c0422f799f7029cfc2872
+Size: 134652
+
 Name: Anemone
 Package: git.shin.anemone
 Priority: optional
