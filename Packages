@@ -240,8 +240,8 @@ Architecture: iphoneos-arm
 Name: CrackTool2
 Author: julioverne
 Filename: ./debs/cracktool2.deb
-MD5sum: b3f8bc9924c8d3c81b50d0502359730b
-Size: 432076
+MD5sum: ff116656e122e384a19fcc2997eb559d
+Size: 432240
 
 Name: Goodges
 Package: git.shin.goodges
