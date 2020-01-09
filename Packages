@@ -1,3 +1,235 @@
+Package: git.shin.maize10
+Name: Maize for iOS10
+Version: 1.3.1-01
+Architecture: iphoneos-arm
+Description: ControlCenter iOS11 to iOS10
+Author: Creatix
+Maintainer: nguyenthanh
+Section: Tweaks
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.a3tweaks.flipswitch, firmware (<= 11.0)
+Icon: file:///Library/PreferenceBundles/MaizeSettings.bundle/SettingsIcon@2x.png
+Conflicts: org.thebigboss.vigor, com.yourepo.kiiimo.flipcontrolcenter, com.rpetrich.flipcontrolcenter, com.ioscreatix.maizepreview, com.atwiiks.horseshoe, org.thebigboss.horseshoe
+Filename: ./debs/maize10.deb
+MD5sum: b1a7b03d80e66ea0f24d5ea547ea2e7a
+Size: 974892
+
+Name: TransparentFolders
+Package: git.shin.transparentfolders
+Priority: optional
+Depends: firmware (>= 9.0), mobilesubstrate
+Version: 1.0-1
+Architecture: iphoneos-arm
+Description: Transparent Folders for iOS 9.0+!
+Sponsor: nguyenthanh
+Maintainer: nguyenthanh
+Author: cole cabral @ca13ra1
+Section: Tweaks
+dev: ca13ra1
+Filename: ./debs/transparentfolders.deb
+MD5sum: b3af11a9a1bb4cbd69a8a1d0449d3289
+Size: 5912
+
+Package: git.shin.transparentdock
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Name: TransparentDock
+Version: 1.1-1
+Architecture: iphoneos-arm
+Description: Remove iOS 7 dock's blurred background
+Maintainer: nguyenthanh
+Author: Jonathan Bailey
+Sponsor: nguyenthanh
+Section: Tweaks
+dev: jonbailey889
+Filename: ./debs/transparentdock.deb
+MD5sum: 7dfe855320b6b9f5277203eeb99e64c1
+Size: 3806
+
+Author: PoomSmart
+Maintainer: nguyenthanh
+Name: TransparentCameraBar
+Package: git.shin.transparentcamerabar
+Depends: mobilesubstrate, preferenceloader, firmware (>= 5.0), ws.hbang.common (>= 1.2)
+Section: Tweaks
+Version: 1.7.6
+Architecture: iphoneos-arm
+Description: Set opacity, hide and shrink camera bars.
+Sponsor: nguyenthanh
+dev: poomst
+Icon: file:///Library/PreferenceBundles/TransparentCameraBarSettings.bundle/TCB@2x.png
+Filename: ./debs/transparentcamerabar.deb
+MD5sum: cebc5940e4da769819311729ed0993a3
+Size: 104934
+
+Package: git.shin.unsize
+Name: Unsize
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Show disk usage of an app in its uninstall alert.
+Maintainer: nguyenthanh
+Author: fidele007
+Section: Tweaks
+Version: 0.0.3
+Filename: ./debs/unsize.deb
+MD5sum: 88fe4c827fda1cbf1e64c24350fe9636
+Size: 6020
+
+Package: git.shin.springplus
+Version: 1.3-2
+Section: Tweaks
+Maintainer: Rishanan
+Depends: mobilesubstrate, preferenceloader, git.shin.libspring
+Conflicts: com.rishanan.bke,com.rishanan.noti,com.rishanan.ndb,com.rishanan.swP
+Architecture: iphoneos-arm
+Description: All round modification for your iDevice.
+Name: SpringPlus
+Author: Rishanan
+Filename: ./debs/springplus.deb
+MD5sum: 07bb982d34291cca3be03146f6533ff4
+Size: 46766
+
+Package: git.shin.libspring
+Name: libSpringPlus
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Essential lib for SpringPlus
+Maintainer: Rishanan
+Author: Rishanan
+Section: Development
+Version: 0.0.2
+Filename: ./debs/libspring.deb
+MD5sum: 27a0505979987afcffb54ac242827c16
+Size: 5298
+
+Package: git.shin.customloadingtext
+Description: Custom loading text
+Version: 1.0.0-1
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Architecture: iphoneos-arm
+Installed-Size: 237
+Name: CustomLoadingText
+Author: CydiaGeek
+Sponsor: nguyenthanh
+Icon: file:///Library/PreferenceBundles/CustomLoadingText.bundle/CustomLoadingText@2x.png
+Filename: ./debs/customloadingtext.deb
+MD5sum: 0212ada2d12acf807a369ed077a336ea
+Size: 46136
+
+Package: git.shin.powerselector
+Name: PowerSelector (Flipswitch)
+Depends: mobilesubstrate, com.a3tweaks.flipswitch
+Conflicts: com.ichitaso.powerselector11
+Replaces: com.ichitaso.powerselector
+Architecture: iphoneos-arm
+Description: The power supply relation of a device is operated.
+Maintainer: ichitaso
+Author: ichitaso
+Section: Addons (Flipswitch)
+Version: 1.0-9
+Filename: ./debs/powerselector.deb
+MD5sum: 72105e1975c4b0141cceecebef077187
+Size: 51672
+
+Package: git.shin.detailedpowerusage
+Description: View info battery your device
+Version: 1.0.2b-1
+Section: Tweaks
+Maintainer: nguyenthanh
+Depends: firmware (>= 9.0), mobilesubstrate
+Conflicts: org.thebigboss.detailedbatteryusage
+Architecture: iphoneos-arm
+Name: DetailedPowerUsage
+Author: TheComputerWhisperer
+Sponsor: nguyenthanh
+Icon: file:///Library/Application Support/DPUTweakResources/kTCWIcon.png
+Filename: ./debs/detailedpowerusage.deb
+MD5sum: 60ed00faad8e342840a513c9f87346a7
+Size: 547862
+
+Package: git.shin.hpbdisabller
+Name: Headphone Button Disabller
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: Disable official headphone buttons
+Maintainer: nguyenthanh
+Author: ichitaso
+Section: Tweaks
+Version: 0.1-2
+Filename: ./debs/hpbdisabller.deb
+MD5sum: 74227053776a2cd654e0225ad712b2f4
+Size: 52386
+
+Package: git.shin.localiapstoreios9
+Version: 1.4-5b
+Section: Tweaks
+Maintainer: nguyenthanh
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Name: LocalIAPStore
+Author: Pangu
+Description: Hack in-app in apps
+Filename: ./debs/localiappstore.deb
+MD5sum: 679b5a09f08894220705ba4d376b1c40
+Size: 70698
+
+Package: git.shin.youtubepatcher
+Name: YouTubePatcher
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: No inline Ads/Background Play back
+Maintainer: ichitaso
+Author: ichitaso
+Section: Tweaks
+Version: 0.1-10
+Filename: ./debs/youtubepatcher.deb
+MD5sum: 23d0c31c461667993d2679f6a11d84bc
+Size: 6776
+
+Package: git.shin.goodwifi
+Name: GoodWiFi
+Author: julioverne
+Version: 0.0~beta5
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: Better WiFi Preferences
+Maintainer: nguyenthanh
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
+Filename: ./debs/goodwifi.deb
+MD5sum: f1609feca5fe926bfbe71beef6eef79f
+Size: 128582
+
+Package: git.shin.pagebar
+Name: Pagebar
+Version: 2.4.0
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, me.nepeta.libcolorpicker, ws.hbang.common (>= 1.11)
+Installed-Size: 1900
+Author: calicocat
+Maintainer: calicocat
+Description: Make your page dots yours
+Filename: ./debs/pagebar.deb
+MD5sum: b8d5410064872182ad92594475d47d9d
+Size: 215278
+
+Package: git.shin.liberty
+Version: 0.2.9
+Section: Tweaks
+Maintainer: nguyenthanh
+Depends: mobilesubstrate, preferenceloader, applist
+Architecture: iphoneos-arm
+Name: Liberty
+Author: Ryley Angus
+Sponsor: nguyenthanh
+Description: Disable MobilecSubstrate in apps
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Filename: ./debs/liberty.deb
+MD5sum: 494fd3999564c7c0113ce0440f5f0856
+Size: 87580
+
 Package: git.shin.cracktool2
 Description: Crack Tweaks on one click
 Version: 2.3~beta9
